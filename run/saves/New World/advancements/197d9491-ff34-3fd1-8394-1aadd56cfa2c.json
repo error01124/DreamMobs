@@ -1,0 +1,24 @@
+{
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2023-12-31 17:16:00 +0300",
+      "diamond_helmet": "2023-12-31 17:16:00 +0300",
+      "diamond_chestplate": "2023-12-31 17:16:00 +0300",
+      "diamond_boots": "2023-12-31 17:16:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-12-31 17:16:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2023-12-31 17:16:10 +0300",
+      "taiga": "2023-12-31 17:16:00 +0300"
+    },
+    "done": false
+  }
+}

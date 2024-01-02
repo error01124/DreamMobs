@@ -1,0 +1,61 @@
+[20:45:59] [main/INFO]: Setting user: Player572
+[20:46:04] [main/WARN]: Skipping bad option: lastServer:
+[20:46:04] [main/INFO]: LWJGL Version: 2.9.4
+[20:46:09] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dream Mobs
+[20:46:12] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:46:13] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[20:46:13] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:46:13] [Thread-5/INFO]: OpenAL initialized.
+[20:46:13] [Sound Library Loader/INFO]: Sound engine started
+[20:46:17] [main/WARN]: Texture dreammobs:textures/items/fiery_heart.png with size 9x9 will have visual artifacts at mip level 4, it can only support level 0. Please report to the mod author that the texture should be some multiple of 16x16.
+[20:46:17] [main/INFO]: Created: 512x512 textures-atlas
+[20:46:20] [main/WARN]: Skipping bad option: lastServer:
+[20:46:20] [main/INFO]: Narrator library for x64 successfully loaded
+[20:46:21] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[20:46:27] [Server thread/INFO]: Starting integrated minecraft server version 1.12
+[20:46:27] [Server thread/INFO]: Generating keypair
+[20:46:28] [Server thread/INFO]: Loaded 488 advancements
+[20:46:28] [Server thread/INFO]: Preparing start region for level 0
+[20:46:29] [Server thread/INFO]: Preparing spawn area: 33%
+[20:46:30] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:46:31] [Server thread/INFO]: Player572[local:E:85d349ff] logged in with entity id 280 at (-464.19268113272284, 80.40226000839814, 277.13127927694467)
+[20:46:31] [Server thread/INFO]: Player572 присоединился к игре
+[20:46:33] [Server thread/INFO]: Saving and pausing game...
+[20:46:33] [Server thread/INFO]: Saving chunks for level 'Новый мир'/overworld
+[20:46:33] [Server thread/INFO]: Saving chunks for level 'Новый мир'/the_nether
+[20:46:33] [Server thread/INFO]: Saving chunks for level 'Новый мир'/the_end
+[20:47:14] [Server thread/ERROR]: Encountered an unexpected exception
+net.minecraft.util.ReportedException: Ticking entity
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:842) ~[MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:740) ~[MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) ~[IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:589) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_371]
+Caused by: java.lang.NullPointerException
+	at ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock.startExecuting(EntityAIMoveToFlammableBlock.java:88) ~[EntityAIMoveToFlammableBlock.class:?]
+	at net.minecraft.entity.ai.EntityAITasks.onUpdateTasks(EntityAITasks.java:84) ~[EntityAITasks.class:?]
+	at net.minecraft.entity.EntityLiving.updateEntityActionState(EntityLiving.java:843) ~[EntityLiving.class:?]
+	at net.minecraft.entity.EntityLivingBase.onLivingUpdate(EntityLivingBase.java:2565) ~[EntityLivingBase.class:?]
+	at net.minecraft.entity.EntityLiving.onLivingUpdate(EntityLiving.java:647) ~[EntityLiving.class:?]
+	at net.minecraft.entity.monster.EntityMob.onLivingUpdate(EntityMob.java:49) ~[EntityMob.class:?]
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2381) ~[EntityLivingBase.class:?]
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:346) ~[EntityLiving.class:?]
+	at net.minecraft.entity.monster.EntityMob.onUpdate(EntityMob.java:57) ~[EntityMob.class:?]
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2141) ~[World.class:?]
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:872) ~[WorldServer.class:?]
+	at net.minecraft.world.World.updateEntity(World.java:2101) ~[World.class:?]
+	at net.minecraft.world.World.updateEntities(World.java:1912) ~[World.class:?]
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:644) ~[WorldServer.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:836) ~[MinecraftServer.class:?]
+	... 4 more
+[20:47:14] [Server thread/ERROR]: This crash report has been saved to: C:\Users\nikit\OneDrive\Рабочий стол\DreamMobs\run\.\crash-reports\crash-2024-01-02_20.47.14-server.txt
+[20:47:14] [Server thread/INFO]: Stopping server
+[20:47:14] [Server thread/INFO]: Saving players
+[20:47:14] [Server thread/INFO]: Player572 lost connection: Сервер выключен
+[20:47:14] [Server thread/INFO]: Player572 покинул игру
+[20:47:14] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[20:47:14] [Server thread/INFO]: Saving worlds
+[20:47:14] [Server thread/INFO]: Saving chunks for level 'Новый мир'/overworld
+[20:47:14] [Server thread/INFO]: Saving chunks for level 'Новый мир'/the_nether
+[20:47:14] [Server thread/INFO]: Saving chunks for level 'Новый мир'/the_end
+[20:47:15] [Client Shutdown Thread/INFO]: Stopping server

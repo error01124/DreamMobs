@@ -1,0 +1,181 @@
+WARNING: You are using an unsupported version of ForgeGradle.
+Please consider upgrading to ForgeGradle 5 and helping in the efforts to get old versions working on the modern toolchain.
+See https://gist.github.com/TheCurle/fe7ad3ede188cbdd15c235cc75d52d4a for more info on contributing.
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar
+:getVersionJson
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndex UP-TO-DATE
+:getAssets
+:makeStart
+:runClient
+2024-01-02 11:14:48,556 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2024-01-02 11:14:48,560 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[11:14:48] [main/INFO] [GradleStart]: Extra: []
+[11:14:48] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/nikit/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[11:14:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:14:48] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:14:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:14:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:14:48] [main/INFO] [FML]: Forge Mod Loader version 14.21.1.2443 for Minecraft 1.12 loading
+[11:14:48] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_371, running on Windows 11:amd64:10.0, installed at C:\Program Files\Java\jdk-1.8\jre
+[11:14:48] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[11:14:48] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[11:14:48] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[11:14:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:14:48] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[11:14:48] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[11:14:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:14:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:14:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:14:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:14:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:14:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+2024-01-02 11:14:49,095 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2024-01-02 11:14:49,321 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2024-01-02 11:14:49,324 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[11:14:49] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[11:14:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:14:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:14:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:14:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:14:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:14:50] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[11:14:51] [main/INFO]: Setting user: Player951
+[11:14:54] [main/WARN]: Skipping bad option: lastServer:
+[11:14:54] [main/INFO]: LWJGL Version: 2.9.4
+[11:14:55] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 1.8.0_371, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 672218480 bytes (641 MB) / 838860800 bytes (800 MB) up to 3750756352 bytes (3577 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 31.0.101.4032' Renderer: 'Intel(R) Iris(R) Xe Graphics'
+[11:14:55] [main/INFO] [FML]: MinecraftForge v14.21.1.2443 Initialized
+[11:14:55] [main/INFO] [FML]: Replaced 921 ore ingredients
+[11:14:56] [main/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[11:14:56] [main/INFO] [FML]: Searching C:\Users\nikit\OneDrive\Рабочий стол\DreamMobs\run\mods for mods
+[11:14:57] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[11:14:57] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, dreammobs] at CLIENT
+[11:14:57] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, dreammobs] at SERVER
+[11:14:57] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dream Mobs
+[11:14:57] [main/INFO] [FML]: Processing ObjectHolder annotations
+[11:14:57] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[11:14:57] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[11:14:57] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[11:14:57] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[11:14:57] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[11:14:58] [main/INFO] [FML]: Applying holder lookups
+[11:14:58] [main/INFO] [FML]: Holder lookups applied
+[11:14:58] [main/INFO] [FML]: Applying holder lookups
+[11:14:58] [main/INFO] [FML]: Holder lookups applied
+[11:14:58] [main/INFO] [FML]: Applying holder lookups
+[11:14:58] [main/INFO] [FML]: Holder lookups applied
+[11:14:58] [main/INFO] [FML]: Applying holder lookups
+[11:14:58] [main/INFO] [FML]: Holder lookups applied
+[11:14:58] [main/INFO] [FML]: Injecting itemstacks
+[11:14:58] [main/INFO] [FML]: Itemstack injection complete
+[11:14:58] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 88811600 nanos
+[11:15:00] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[11:15:00] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[11:15:00] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+AL lib: (EE) MMDevApiOpenPlayback: Device init failed: 0x80004005
+AL lib: (EE) MMDevApiOpenPlayback: Device init failed: 0x80004005
+[11:15:01] [Thread-5/ERROR]: Error in class 'LibraryLWJGLOpenAL'
+[11:15:01] [Thread-5/ERROR]: Unable to initialize OpenAL.  Probable cause: OpenAL not supported.
+[11:15:01] [Thread-5/WARN]: ERROR MESSAGE:
+[11:15:01] [Thread-5/INFO]: Could not locate OpenAL library.
+[11:15:01] [Thread-5/WARN]: STACK TRACE:
+[11:15:01] [Thread-5/INFO]: org.lwjgl.openal.AL.create(AL.java:156)
+[11:15:01] [Thread-5/INFO]: org.lwjgl.openal.AL.create(AL.java:102)
+[11:15:01] [Thread-5/INFO]: org.lwjgl.openal.AL.create(AL.java:206)
+[11:15:01] [Thread-5/INFO]: paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[11:15:01] [Thread-5/INFO]: paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[11:15:01] [Thread-5/INFO]: paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[11:15:01] [Thread-5/INFO]: paulscode.sound.CommandThread.run(CommandThread.java:121)
+[11:15:01] [Sound Library Loader/WARN]: ERROR MESSAGE:
+[11:15:01] [Sound Library Loader/INFO]: Could not locate OpenAL library.
+[11:15:01] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[11:15:02] [Thread-7/INFO]: Switching to No Sound
+[11:15:02] [Thread-7/INFO]: (Silent Mode)
+[11:15:02] [Sound Library Loader/INFO]: Sound engine started
+[11:15:14] [main/INFO] [FML]: Max texture size: 16384
+[11:15:15] [main/INFO]: Created: 512x512 textures-atlas
+[11:15:20] [main/INFO] [FML]: Applying holder lookups
+[11:15:20] [main/INFO] [FML]: Holder lookups applied
+[11:15:20] [main/INFO] [FML]: Injecting itemstacks
+[11:15:20] [main/INFO] [FML]: Itemstack injection complete
+[11:15:20] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[11:15:20] [main/WARN]: Skipping bad option: lastServer:
+[11:15:20] [main/INFO]: Narrator library for x64 successfully loaded
+[11:15:21] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[11:15:24] [Server thread/INFO]: Starting integrated minecraft server version 1.12
+[11:15:24] [Server thread/INFO]: Generating keypair
+[11:15:24] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[11:15:24] [Server thread/INFO] [FML]: Applying holder lookups
+[11:15:24] [Server thread/INFO] [FML]: Holder lookups applied
+[11:15:24] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@7ac5ea48)
+[11:15:24] [Server thread/INFO]: Loaded 488 advancements
+[11:15:24] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@7ac5ea48)
+[11:15:24] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@7ac5ea48)
+[11:15:24] [Server thread/INFO]: Preparing start region for level 0
+[11:15:25] [Server thread/INFO]: Changing view distance to 12, from 10
+[11:15:26] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[11:15:26] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[11:15:26] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12,FML@8.0.99.99,forge@14.21.1.2443,dreammobs@1.0,mcp@9.19
+[11:15:27] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[11:15:27] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[11:15:27] [Server thread/INFO]: Player951[local:E:0043588e] logged in with entity id 159 at (1440.6913387479885, 6.74684583211089, 750.3415467590892)
+[11:15:27] [Server thread/INFO]: Player951 joined the game
+[11:15:28] [Server thread/INFO]: Saving and pausing game...
+[11:15:28] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[11:15:28] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[11:15:28] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[11:15:28] [main/INFO]: Loaded 4 advancements
+[11:15:36] [Server thread/INFO]: Saving and pausing game...
+[11:15:36] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[11:15:36] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[11:15:36] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[11:16:13] [main/INFO]: Stopping!
+[11:16:13] [Server thread/INFO]: Stopping server
+[11:16:13] [Server thread/INFO]: Saving players
+[11:16:13] [Server thread/INFO]: Saving worlds
+[11:16:13] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[11:16:13] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[11:16:13] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[11:16:13] [Server thread/INFO] [FML]: Unloading dimension 0
+[11:16:13] [Server thread/INFO] [FML]: Unloading dimension -1
+[11:16:13] [Server thread/INFO] [FML]: Unloading dimension 1
+[11:16:14] [main/INFO]: SoundSystem shutting down...
+[11:16:14] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+Exception in thread "Server thread" [11:16:14] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.IllegalStateException: Display not created
+[11:16:14] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.lwjgl.opengl.Display.processMessages(Display.java:598)
+[11:16:14] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.client.FMLClientHandler.processWindowMessages(FMLClientHandler.java:1060)
+[11:16:14] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.common.FMLCommonHandler.processWindowMessages(FMLCommonHandler.java:652)
+[11:16:14] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.common.ProgressManager$ProgressBar.step(ProgressManager.java:132)
+[11:16:14] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:229)
+[11:16:14] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.common.Loader.fireRemapEvent(Loader.java:962)
+[11:16:14] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.registries.GameData.revertToFrozen(GameData.java:251)
+[11:16:14] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.common.Loader.serverStopped(Loader.java:892)
+[11:16:14] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.common.FMLCommonHandler.handleServerStopped(FMLCommonHandler.java:506)
+[11:16:14] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:651)
+[11:16:14] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Thread.run(Thread.java:750)
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 33.286 secs

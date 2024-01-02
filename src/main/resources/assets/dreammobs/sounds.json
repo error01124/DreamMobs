@@ -1,0 +1,10 @@
+{
+  "item.fiery_heart.use": {
+	"category": "player",
+        "sounds": [
+		{
+			"name": "dreammobs:item/fiery_heart/use"
+		}
+	]
+    }
+}
