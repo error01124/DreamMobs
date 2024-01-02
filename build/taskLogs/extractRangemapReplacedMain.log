@@ -1,0 +1,61 @@
+Unsupposrted library path: C:\Users\nikit\OneDrive\Рабочий стол\DreamMobs\build\classes\api
+Unsupposrted library path: C:\Users\nikit\OneDrive\Рабочий стол\DreamMobs\build\resources\api
+Symbol range map extraction starting
+Processing 19 files
+startProcessing "ru/d78boga/dreammobs/DreamMobs.java" md5: 37785de723a7beb23464d6700e6971d8
+endProcessing "ru/d78boga/dreammobs/DreamMobs.java"
+
+startProcessing "ru/d78boga/dreammobs/entity/EntityPyro.java" md5: d86b5e514ed3e27b924bb1bc7cb8d6f1
+endProcessing "ru/d78boga/dreammobs/entity/EntityPyro.java"
+
+startProcessing "ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java" md5: a1c6871205cfe9d7ed3d797f72d7da1e
+endProcessing "ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java"
+
+startProcessing "ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java" md5: a4e6e1c66c0bfa8a927955e691ca96e1
+endProcessing "ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java"
+
+startProcessing "ru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator.java" md5: 4ce354fa01c20380c1c20d30feab8785
+endProcessing "ru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator.java"
+
+startProcessing "ru/d78boga/dreammobs/entity/render/RenderPyro.java" md5: 981113348ced7d4c8731ac63ec0bf761
+endProcessing "ru/d78boga/dreammobs/entity/render/RenderPyro.java"
+
+startProcessing "ru/d78boga/dreammobs/item/ItemFieryHeart.java" md5: cbd3ca5485b6ee0b12ccd55fdc10950b
+endProcessing "ru/d78boga/dreammobs/item/ItemFieryHeart.java"
+
+startProcessing "ru/d78boga/dreammobs/potion/PotionFireSpirit.java" md5: b4237d753a580c0b405808bf0ea99565
+endProcessing "ru/d78boga/dreammobs/potion/PotionFireSpirit.java"
+
+startProcessing "ru/d78boga/dreammobs/proxy/ClientProxy.java" md5: 683941189a7bd667cc2d6340da18080a
+endProcessing "ru/d78boga/dreammobs/proxy/ClientProxy.java"
+
+startProcessing "ru/d78boga/dreammobs/proxy/CommonProxy.java" md5: 14ef5d48edac5d45c0e7f65a206fd050
+endProcessing "ru/d78boga/dreammobs/proxy/CommonProxy.java"
+
+startProcessing "ru/d78boga/dreammobs/proxy/IProxy.java" md5: 351d49c992c01655b8a052008d81d0d8
+endProcessing "ru/d78boga/dreammobs/proxy/IProxy.java"
+
+startProcessing "ru/d78boga/dreammobs/registry/Entities.java" md5: a54955d98a7c8c20e6dc3cf18aeeb0d5
+endProcessing "ru/d78boga/dreammobs/registry/Entities.java"
+
+startProcessing "ru/d78boga/dreammobs/registry/Items.java" md5: e8b1f2be0f3eac0d0fe5441eb4896c09
+endProcessing "ru/d78boga/dreammobs/registry/Items.java"
+
+startProcessing "ru/d78boga/dreammobs/registry/LootTables.java" md5: bb9f983aaaf367350ed83eb151f93f51
+endProcessing "ru/d78boga/dreammobs/registry/LootTables.java"
+
+startProcessing "ru/d78boga/dreammobs/registry/Potions.java" md5: 5f8d037ef9d30824f9c4d654f7ea1053
+endProcessing "ru/d78boga/dreammobs/registry/Potions.java"
+
+startProcessing "ru/d78boga/dreammobs/registry/Sounds.java" md5: fc2b669cea69f5a87c6d69a056a8c6e2
+endProcessing "ru/d78boga/dreammobs/registry/Sounds.java"
+
+startProcessing "ru/d78boga/dreammobs/util/BlockFinder.java" md5: ca7b7549553909f685546a0ff64d1c5a
+endProcessing "ru/d78boga/dreammobs/util/BlockFinder.java"
+
+startProcessing "ru/d78boga/dreammobs/util/RandomPositionGenerator.java" md5: 81f50d3b4b8f3d4c84290c098e9cd217
+endProcessing "ru/d78boga/dreammobs/util/RandomPositionGenerator.java"
+
+startProcessing "ru/d78boga/dreammobs/util/ResourceLocator.java" md5: faec5b69ec0d8abe337a039210126363
+endProcessing "ru/d78boga/dreammobs/util/ResourceLocator.java"
+

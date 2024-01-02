@@ -7,7 +7,6 @@ import net.minecraft.init.Blocks;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import scala.collection.concurrent.Debug;
 
 public class EntityAIFireBlock extends EntityAIBase
 {
@@ -52,7 +51,6 @@ public class EntityAIFireBlock extends EntityAIBase
 	@Override
 	public void startExecuting()
 	{
-		Debug.log("start executing");
 		this.entity.getLookHelper().setLookPosition(this.blockPos.getX() + 0.5D, this.blockPos.getY() + 0.5D, this.blockPos.getZ() + 0.5D, this.entity.getHorizontalFaceSpeed(), this.entity.getVerticalFaceSpeed());
 		World world = this.entity.world;
 		EnumFacing facing = EnumFacing.getDirectionFromEntityLiving(this.blockPos, this.entity);

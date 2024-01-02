@@ -1,0 +1,1140 @@
+Unsupposrted library path: C:\Users\nikit\OneDrive\Рабочий стол\DreamMobs\build\classes\api
+Unsupposrted library path: C:\Users\nikit\OneDrive\Рабочий стол\DreamMobs\build\resources\api
+Symbol range map extraction starting
+Processing 19 files
+startProcessing "ru/d78boga/dreammobs/DreamMobs.java" md5: 37785de723a7beb23464d6700e6971d8
+@|ru/d78boga/dreammobs/DreamMobs.java|8|28|ru.d78boga.dreammobs|package|ru.d78boga.dreammobs|(file)
+Class Start: ru.d78boga.dreammobs.DreamMobs
+   @|ru/d78boga/dreammobs/DreamMobs.java|444|447|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|ru/d78boga/dreammobs/DreamMobs.java|448|453|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|ru/d78boga/dreammobs/DreamMobs.java|456|465|DreamMobs|class|ru.d78boga.dreammobs.DreamMobs|false
+   @|ru/d78boga/dreammobs/DreamMobs.java|466|471|MODID|field|ru.d78boga.dreammobs.DreamMobs|MODID
+   @|ru/d78boga/dreammobs/DreamMobs.java|473|480|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|ru/d78boga/dreammobs/DreamMobs.java|483|492|DreamMobs|class|ru.d78boga.dreammobs.DreamMobs|false
+   @|ru/d78boga/dreammobs/DreamMobs.java|493|500|VERSION|field|ru.d78boga.dreammobs.DreamMobs|VERSION
+   @|ru/d78boga/dreammobs/DreamMobs.java|516|525|DreamMobs|class|ru.d78boga.dreammobs.DreamMobs|false
+   @|ru/d78boga/dreammobs/DreamMobs.java|551|557|String|class|java.lang.String|false
+   @|ru/d78boga/dreammobs/DreamMobs.java|551|557|String|class|java.lang.String|false
+   @|ru/d78boga/dreammobs/DreamMobs.java|558|563|MODID|field|ru.d78boga.dreammobs.DreamMobs|MODID|
+   @|ru/d78boga/dreammobs/DreamMobs.java|601|607|String|class|java.lang.String|false
+   @|ru/d78boga/dreammobs/DreamMobs.java|601|607|String|class|java.lang.String|false
+   @|ru/d78boga/dreammobs/DreamMobs.java|608|615|VERSION|field|ru.d78boga.dreammobs.DreamMobs|VERSION|
+   @|ru/d78boga/dreammobs/DreamMobs.java|767|778|CommonProxy|class|ru.d78boga.dreammobs.proxy.CommonProxy|false
+   @|ru/d78boga/dreammobs/DreamMobs.java|630|640|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
+   @|ru/d78boga/dreammobs/DreamMobs.java|641|651|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|ru/d78boga/dreammobs/DreamMobs.java|696|706|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|ru/d78boga/dreammobs/DreamMobs.java|767|778|CommonProxy|class|ru.d78boga.dreammobs.proxy.CommonProxy|false
+   @|ru/d78boga/dreammobs/DreamMobs.java|779|784|proxy|field|ru.d78boga.dreammobs.DreamMobs|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|ru/d78boga/dreammobs/DreamMobs.java|852|857|event|param|ru.d78boga.dreammobs.DreamMobs|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/DreamMobs.java|791|803|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|ru/d78boga/dreammobs/DreamMobs.java|818|825|preInit|method|ru.d78boga.dreammobs.DreamMobs|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|ru/d78boga/dreammobs/DreamMobs.java|826|851|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|ru/d78boga/dreammobs/DreamMobs.java|866|871|proxy|field|ru.d78boga.dreammobs.DreamMobs|proxy
+      @|ru/d78boga/dreammobs/DreamMobs.java|872|879|preInit|method|ru.d78boga.dreammobs.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|ru/d78boga/dreammobs/DreamMobs.java|880|885|event|param|ru.d78boga.dreammobs.DreamMobs|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|ru/d78boga/dreammobs/DreamMobs.java|952|957|event|param|ru.d78boga.dreammobs.DreamMobs|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/DreamMobs.java|897|909|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|ru/d78boga/dreammobs/DreamMobs.java|924|928|init|method|ru.d78boga.dreammobs.DreamMobs|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|ru/d78boga/dreammobs/DreamMobs.java|929|951|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|ru/d78boga/dreammobs/DreamMobs.java|966|971|proxy|field|ru.d78boga.dreammobs.DreamMobs|proxy
+      @|ru/d78boga/dreammobs/DreamMobs.java|972|976|init|method|ru.d78boga.dreammobs.proxy.IProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|ru/d78boga/dreammobs/DreamMobs.java|977|982|event|param|ru.d78boga.dreammobs.DreamMobs|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|ru/d78boga/dreammobs/DreamMobs.java|1057|1062|event|param|ru.d78boga.dreammobs.DreamMobs|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/DreamMobs.java|994|1006|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|ru/d78boga/dreammobs/DreamMobs.java|1021|1029|postInit|method|ru.d78boga.dreammobs.DreamMobs|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|ru/d78boga/dreammobs/DreamMobs.java|1030|1056|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+      @|ru/d78boga/dreammobs/DreamMobs.java|1071|1076|proxy|field|ru.d78boga.dreammobs.DreamMobs|proxy
+      @|ru/d78boga/dreammobs/DreamMobs.java|1077|1085|postInit|method|ru.d78boga.dreammobs.proxy.IProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|ru/d78boga/dreammobs/DreamMobs.java|1086|1091|event|param|ru.d78boga.dreammobs.DreamMobs|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : ru.d78boga.dreammobs.DreamMobs
+endProcessing "ru/d78boga/dreammobs/DreamMobs.java"
+
+startProcessing "ru/d78boga/dreammobs/entity/EntityPyro.java" md5: d86b5e514ed3e27b924bb1bc7cb8d6f1
+@|ru/d78boga/dreammobs/entity/EntityPyro.java|8|35|ru.d78boga.dreammobs.entity|package|ru.d78boga.dreammobs.entity|(file)
+Class Start: ru.d78boga.dreammobs.entity.EntityPyro
+   @|ru/d78boga/dreammobs/entity/EntityPyro.java|1065|1075|EntityPyro|class|ru.d78boga.dreammobs.entity.EntityPyro|false
+   @|ru/d78boga/dreammobs/entity/EntityPyro.java|1084|1093|EntityMob|class|net.minecraft.entity.monster.EntityMob|false
+   Method Start: EntityPyro(Lnet/minecraft/world/World;)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1123|1128|world|param|ru.d78boga.dreammobs.entity.EntityPyro|EntityPyro|(Lnet/minecraft/world/World;)V|world|0
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1106|1116|EntityPyro|method|ru.d78boga.dreammobs.entity.EntityPyro|EntityPyro|(Lnet/minecraft/world/World;)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1117|1122|World|class|net.minecraft.world.World|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1143|1148|world|param|ru.d78boga.dreammobs.entity.EntityPyro|EntityPyro|(Lnet/minecraft/world/World;)V|world|0
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1154|1161|setSize|method|net.minecraft.entity.Entity|setSize|(FF)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1184|1198|isImmuneToFire|field|net.minecraft.entity.Entity|isImmuneToFire
+   Method End: EntityPyro(Lnet/minecraft/world/World;)V
+   Method Start: applyEntityAttributes()V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1216|1224|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1242|1263|applyEntityAttributes|method|net.minecraft.entity.EntityLivingBase|applyEntityAttributes|()V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1279|1300|applyEntityAttributes|method|net.minecraft.entity.EntityLivingBase|applyEntityAttributes|()V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1312|1330|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1331|1354|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1355|1365|MAX_HEALTH|field|net.minecraft.entity.SharedMonsterAttributes|MAX_HEALTH
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1367|1379|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1394|1412|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1413|1436|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1437|1449|FOLLOW_RANGE|field|net.minecraft.entity.SharedMonsterAttributes|FOLLOW_RANGE
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1451|1463|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1480|1498|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1499|1522|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1523|1537|MOVEMENT_SPEED|field|net.minecraft.entity.SharedMonsterAttributes|MOVEMENT_SPEED
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1539|1551|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1567|1585|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1586|1609|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1610|1623|ATTACK_DAMAGE|field|net.minecraft.entity.SharedMonsterAttributes|ATTACK_DAMAGE
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1625|1637|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1653|1671|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1672|1695|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1696|1701|ARMOR|field|net.minecraft.entity.SharedMonsterAttributes|ARMOR
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1703|1715|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1731|1749|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1750|1773|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1774|1789|ARMOR_TOUGHNESS|field|net.minecraft.entity.SharedMonsterAttributes|ARMOR_TOUGHNESS
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1791|1803|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+   Method End: applyEntityAttributes()V
+   Method Start: initEntityAI()V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1820|1828|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1846|1858|initEntityAI|method|net.minecraft.entity.EntityLiving|initEntityAI|()V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1873|1878|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1879|1886|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1894|1910|EntityAISwimming|class|net.minecraft.entity.ai.EntityAISwimming|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1927|1932|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1933|1940|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1948|1967|EntityAIAttackMelee|class|net.minecraft.entity.ai.EntityAIAttackMelee|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|1997|2002|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2003|2010|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2018|2032|EntityAIWander|class|net.minecraft.entity.ai.EntityAIWander|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2055|2060|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2061|2068|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2076|2096|EntityAIWatchClosest|class|net.minecraft.entity.ai.EntityAIWatchClosest|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2103|2115|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2139|2144|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2145|2152|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2160|2176|EntityAILookIdle|class|net.minecraft.entity.ai.EntityAILookIdle|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2188|2216|EntityAIMoveToFlammableBlock|class|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2248|2276|EntityAIMoveToFlammableBlock|class|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2292|2297|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2298|2305|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2344|2349|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2350|2357|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2365|2382|EntityAIFireBlock|class|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2425|2436|targetTasks|field|net.minecraft.entity.EntityLiving|targetTasks
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2437|2444|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2452|2472|EntityAIHurtByTarget|class|net.minecraft.entity.ai.EntityAIHurtByTarget|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2489|2494|Class|class|java.lang.Class|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2502|2514|EntityZombie|class|net.minecraft.entity.monster.EntityZombie|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2522|2534|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+   Method End: initEntityAI()V
+   Method Start: attackEntityAsMob(Lnet/minecraft/entity/Entity;)Z
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2606|2614|entityIn|param|ru.d78boga.dreammobs.entity.EntityPyro|attackEntityAsMob|(Lnet/minecraft/entity/Entity;)Z|entityIn|0
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2555|2563|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2581|2598|attackEntityAsMob|method|net.minecraft.entity.EntityLivingBase|attackEntityAsMob|(Lnet/minecraft/entity/Entity;)Z
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2599|2605|Entity|class|net.minecraft.entity.Entity|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2633|2650|attackEntityAsMob|method|net.minecraft.entity.EntityLivingBase|attackEntityAsMob|(Lnet/minecraft/entity/Entity;)Z
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2651|2659|entityIn|param|ru.d78boga.dreammobs.entity.EntityPyro|attackEntityAsMob|(Lnet/minecraft/entity/Entity;)Z|entityIn|0
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2675|2683|entityIn|param|ru.d78boga.dreammobs.entity.EntityPyro|attackEntityAsMob|(Lnet/minecraft/entity/Entity;)Z|entityIn|0
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2695|2711|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2726|2742|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2744|2752|entityIn|param|ru.d78boga.dreammobs.entity.EntityPyro|attackEntityAsMob|(Lnet/minecraft/entity/Entity;)Z|entityIn|0
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2754|2771|attackEntityAsMob|method|net.minecraft.entity.EntityLivingBase|attackEntityAsMob|(Lnet/minecraft/entity/Entity;)Z
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2784|2792|entityIn|param|ru.d78boga.dreammobs.entity.EntityPyro|attackEntityAsMob|(Lnet/minecraft/entity/Entity;)Z|entityIn|0
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2793|2809|attackEntityFrom|method|net.minecraft.entity.Entity|attackEntityFrom|(Lnet/minecraft/util/DamageSource;F)Z
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2812|2828|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2830|2838|entityIn|param|ru.d78boga.dreammobs.entity.EntityPyro|attackEntityAsMob|(Lnet/minecraft/entity/Entity;)Z|entityIn|0
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2840|2859|getLastDamageSource|method|net.minecraft.entity.EntityLivingBase|getLastDamageSource|()Lnet/minecraft/util/DamageSource;
+   Method End: attackEntityAsMob(Lnet/minecraft/entity/Entity;)Z
+   Method Start: getAmbientSound()Lnet/minecraft/util/SoundEvent;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2939|2947|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2960|2970|SoundEvent|class|net.minecraft.util.SoundEvent|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|2971|2986|getAmbientSound|method|net.minecraft.entity.EntityLiving|getAmbientSound|()Lnet/minecraft/util/SoundEvent;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3003|3014|SoundEvents|class|net.minecraft.init.SoundEvents|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3015|3035|ENTITY_BLAZE_AMBIENT|field|net.minecraft.init.SoundEvents|ENTITY_BLAZE_AMBIENT
+   Method End: getAmbientSound()Lnet/minecraft/util/SoundEvent;
+   Method Start: getHurtSound(Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3104|3115|p_184601_1_|param|ru.d78boga.dreammobs.entity.EntityPyro|getHurtSound|(Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;|p_184601_1_|0
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3046|3054|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3067|3077|SoundEvent|class|net.minecraft.util.SoundEvent|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3078|3090|getHurtSound|method|net.minecraft.entity.EntityLivingBase|getHurtSound|(Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3091|3103|DamageSource|class|net.minecraft.util.DamageSource|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3131|3142|SoundEvents|class|net.minecraft.init.SoundEvents|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3143|3160|ENTITY_BLAZE_HURT|field|net.minecraft.init.SoundEvents|ENTITY_BLAZE_HURT
+   Method End: getHurtSound(Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;
+   Method Start: getDeathSound()Lnet/minecraft/util/SoundEvent;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3171|3179|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3192|3202|SoundEvent|class|net.minecraft.util.SoundEvent|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3203|3216|getDeathSound|method|net.minecraft.entity.EntityLivingBase|getDeathSound|()Lnet/minecraft/util/SoundEvent;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3233|3244|SoundEvents|class|net.minecraft.init.SoundEvents|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3245|3263|ENTITY_BLAZE_DEATH|field|net.minecraft.init.SoundEvents|ENTITY_BLAZE_DEATH
+   Method End: getDeathSound()Lnet/minecraft/util/SoundEvent;
+   Method Start: getLootTable()Lnet/minecraft/util/ResourceLocation;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3274|3282|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3286|3294|Nullable|class|javax.annotation.Nullable|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3307|3323|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3324|3336|getLootTable|method|net.minecraft.entity.EntityLiving|getLootTable|()Lnet/minecraft/util/ResourceLocation;
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3353|3363|LootTables|class|ru.d78boga.dreammobs.registry.LootTables|false
+      @|ru/d78boga/dreammobs/entity/EntityPyro.java|3364|3377|ENTITIES_PYRO|field|ru.d78boga.dreammobs.registry.LootTables|ENTITIES_PYRO
+   Method End: getLootTable()Lnet/minecraft/util/ResourceLocation;
+Class End  : ru.d78boga.dreammobs.entity.EntityPyro
+endProcessing "ru/d78boga/dreammobs/entity/EntityPyro.java"
+
+startProcessing "ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java" md5: a1c6871205cfe9d7ed3d797f72d7da1e
+@|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|8|38|ru.d78boga.dreammobs.entity.ai|package|ru.d78boga.dreammobs.entity.ai|(file)
+Class Start: ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|333|350|EntityAIFireBlock|class|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|359|371|EntityAIBase|class|net.minecraft.entity.ai.EntityAIBase|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|385|393|BlockPos|class|net.minecraft.util.math.BlockPos|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|385|393|BlockPos|class|net.minecraft.util.math.BlockPos|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|394|402|blockPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|blockPos|
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|414|419|Block|class|net.minecraft.block.Block|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|414|419|Block|class|net.minecraft.block.Block|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|420|425|block|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|block|
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|437|449|EntityLiving|class|net.minecraft.entity.EntityLiving|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|437|449|EntityLiving|class|net.minecraft.entity.EntityLiving|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|450|456|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|entity|
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|468|492|IEntityAITargetNavigator|class|ru.d78boga.dreammobs.entity.ai.IEntityAITargetNavigator|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|468|492|IEntityAITargetNavigator|class|ru.d78boga.dreammobs.entity.ai.IEntityAITargetNavigator|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|493|508|targetNavigator|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|targetNavigator|
+   Method Start: EntityAIFireBlock(Lnet/minecraft/entity/EntityLiving;Lru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator;)V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|552|558|entity|param|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|EntityAIFireBlock|(Lnet/minecraft/entity/EntityLiving;Lru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator;)V|entity|0
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|585|600|targetNavigator|param|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|EntityAIFireBlock|(Lnet/minecraft/entity/EntityLiving;Lru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator;)V|targetNavigator|1
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|521|538|EntityAIFireBlock|method|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|EntityAIFireBlock|(Lnet/minecraft/entity/EntityLiving;Lru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator;)V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|539|551|EntityLiving|class|net.minecraft.entity.EntityLiving|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|560|584|IEntityAITargetNavigator|class|ru.d78boga.dreammobs.entity.ai.IEntityAITargetNavigator|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|614|620|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|623|629|entity|param|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|EntityAIFireBlock|(Lnet/minecraft/entity/EntityLiving;Lru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator;)V|entity|0
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|639|654|targetNavigator|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|targetNavigator
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|657|672|targetNavigator|param|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|EntityAIFireBlock|(Lnet/minecraft/entity/EntityLiving;Lru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator;)V|targetNavigator|1
+   Method End: EntityAIFireBlock(Lnet/minecraft/entity/EntityLiving;Lru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator;)V
+   Method Start: shouldExecute()Z
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|683|691|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|709|722|shouldExecute|method|net.minecraft.entity.ai.EntityAIBase|shouldExecute|()Z
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|737|745|blockPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|blockPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|748|763|targetNavigator|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|targetNavigator
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|764|776|getTargetPos|method|ru.d78boga.dreammobs.entity.ai.IEntityAITargetNavigator|getTargetPos|()Lnet/minecraft/util/math/BlockPos;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|794|802|blockPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|blockPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|830|836|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|837|859|isCollidedHorizontally|field|net.minecraft.entity.Entity|isCollidedHorizontally
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|868|874|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|875|880|world|field|net.minecraft.entity.Entity|world
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|881|893|getGameRules|method|net.minecraft.world.World|getGameRules|()Lnet/minecraft/world/GameRules;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|896|906|getBoolean|method|net.minecraft.world.GameRules|getBoolean|(Ljava/lang/String;)Z
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|943|949|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|950|963|getDistanceSq|method|net.minecraft.entity.Entity|getDistanceSq|(Lnet/minecraft/util/math/BlockPos;)D
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|969|977|blockPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|blockPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1007|1012|block|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|block
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1020|1037|getFlammableBlock|method|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|getFlammableBlock|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/Block;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1043|1051|blockPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|blockPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1072|1077|block|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|block
+   Method End: shouldExecute()Z
+   Method Start: getFlammableBlock(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/Block;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1173|1176|pos|param|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|getFlammableBlock|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/Block;|pos|0
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1140|1145|Block|class|net.minecraft.block.Block|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1146|1163|getFlammableBlock|method|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|getFlammableBlock|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/Block;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1164|1172|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1185|1190|World|class|net.minecraft.world.World|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1204|1210|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1211|1216|world|field|net.minecraft.entity.Entity|world
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1221|1226|Block|class|net.minecraft.block.Block|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1241|1254|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1255|1258|pos|param|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|getFlammableBlock|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/Block;|pos|0
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1260|1268|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1305|1320|getFlammability|method|net.minecraft.block.Block|getFlammability|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1328|1331|pos|param|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|getFlammableBlock|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/Block;|pos|0
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1353|1362|isBurning|method|net.minecraft.block.Block|isBurning|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1370|1373|pos|param|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|getFlammableBlock|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/Block;|pos|0
+   Method End: getFlammableBlock(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/Block;
+   Method Start: startExecuting()V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1400|1408|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1423|1437|startExecuting|method|net.minecraft.entity.ai.EntityAIBase|startExecuting|()V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1452|1458|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1459|1472|getLookHelper|method|net.minecraft.entity.EntityLiving|getLookHelper|()Lnet/minecraft/entity/ai/EntityLookHelper;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1475|1490|setLookPosition|method|net.minecraft.entity.ai.EntityLookHelper|setLookPosition|(DDDFF)V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1496|1504|blockPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|blockPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1505|1509|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1525|1533|blockPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|blockPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1534|1538|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1554|1562|blockPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|blockPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1563|1567|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1583|1589|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1590|1612|getHorizontalFaceSpeed|method|net.minecraft.entity.EntityLiving|getHorizontalFaceSpeed|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1621|1627|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1628|1648|getVerticalFaceSpeed|method|net.minecraft.entity.EntityLiving|getVerticalFaceSpeed|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1656|1661|World|class|net.minecraft.world.World|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1675|1681|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1682|1687|world|field|net.minecraft.entity.Entity|world
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1692|1702|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1712|1722|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1723|1751|getDirectionFromEntityLiving|method|net.minecraft.util.EnumFacing|getDirectionFromEntityLiving|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/util/EnumFacing;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1757|1765|blockPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|blockPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1772|1778|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1784|1792|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1804|1812|blockPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock|blockPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1813|1819|offset|method|net.minecraft.util.math.BlockPos|offset|(Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/math/BlockPos;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1844|1854|isAirBlock|method|net.minecraft.world.IBlockAccess|isAirBlock|(Lnet/minecraft/util/math/BlockPos;)Z
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1876|1889|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1895|1901|Blocks|class|net.minecraft.init.Blocks|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1902|1906|FIRE|field|net.minecraft.init.Blocks|FIRE
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java|1907|1922|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+   Method End: startExecuting()V
+Class End  : ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock
+endProcessing "ru/d78boga/dreammobs/entity/ai/EntityAIFireBlock.java"
+
+startProcessing "ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java" md5: a4e6e1c66c0bfa8a927955e691ca96e1
+@|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|8|38|ru.d78boga.dreammobs.entity.ai|package|ru.d78boga.dreammobs.entity.ai|(file)
+Class Start: ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|365|393|EntityAIMoveToFlammableBlock|class|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|402|414|EntityAIBase|class|net.minecraft.entity.ai.EntityAIBase|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|426|450|IEntityAITargetNavigator|class|ru.d78boga.dreammobs.entity.ai.IEntityAITargetNavigator|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|470|484|EntityCreature|class|net.minecraft.entity.EntityCreature|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|470|484|EntityCreature|class|net.minecraft.entity.EntityCreature|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|485|491|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|entity|
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|503|511|BlockPos|class|net.minecraft.util.math.BlockPos|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|503|511|BlockPos|class|net.minecraft.util.math.BlockPos|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|512|521|targetPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|targetPos|
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|533|541|BlockPos|class|net.minecraft.util.math.BlockPos|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|533|541|BlockPos|class|net.minecraft.util.math.BlockPos|false
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|542|556|savedTargetPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|savedTargetPos|
+   @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|572|582|skipChance|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|skipChance|
+   Method Start: EntityAIMoveToFlammableBlock(Lnet/minecraft/entity/EntityCreature;)V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|644|650|entity|param|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|EntityAIMoveToFlammableBlock|(Lnet/minecraft/entity/EntityCreature;)V|entity|0
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|600|628|EntityAIMoveToFlammableBlock|method|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|EntityAIMoveToFlammableBlock|(Lnet/minecraft/entity/EntityCreature;)V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|629|643|EntityCreature|class|net.minecraft.entity.EntityCreature|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|664|670|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|673|679|entity|param|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|EntityAIMoveToFlammableBlock|(Lnet/minecraft/entity/EntityCreature;)V|entity|0
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|689|701|setMutexBits|method|net.minecraft.entity.ai.EntityAIBase|setMutexBits|(I)V
+   Method End: EntityAIMoveToFlammableBlock(Lnet/minecraft/entity/EntityCreature;)V
+   Method Start: getTargetPos()Lnet/minecraft/util/math/BlockPos;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|715|723|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|733|741|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|742|754|getTargetPos|method|ru.d78boga.dreammobs.entity.ai.IEntityAITargetNavigator|getTargetPos|()Lnet/minecraft/util/math/BlockPos;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|776|790|savedTargetPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|savedTargetPos
+   Method End: getTargetPos()Lnet/minecraft/util/math/BlockPos;
+   Method Start: shouldExecute()Z
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|801|809|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|827|840|shouldExecute|method|net.minecraft.entity.ai.EntityAIBase|shouldExecute|()Z
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|850|856|Random|class|java.util.Random|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|871|877|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|878|884|getRNG|method|net.minecraft.entity.EntityLivingBase|getRNG|()Ljava/util/Random;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|904|911|nextInt|method|java.util.Random|nextInt|(I)I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|912|922|skipChance|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|skipChance
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|962|970|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|987|995|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1001|1007|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1013|1018|World|class|net.minecraft.world.World|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1032|1038|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1039|1044|world|field|net.minecraft.entity.Entity|world
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1049|1058|ArrayList|class|java.util.ArrayList|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1059|1067|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1080|1091|BlockFinder|class|ru.d78boga.dreammobs.util.BlockFinder|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1092|1112|getNearestBlockPoses|method|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1139|1148|ArrayList|class|java.util.ArrayList|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1149|1157|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1186|1195|ArrayList|class|java.util.ArrayList|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1211|1219|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1245|1250|Block|class|net.minecraft.block.Block|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1265|1278|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1284|1292|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1312|1327|getFlammability|method|net.minecraft.block.Block|getFlammability|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1360|1369|isBurning|method|net.minecraft.block.Block|isBurning|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1415|1418|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1466|1470|size|method|java.util.Collection|size|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1492|1501|targetPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|targetPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1525|1528|get|method|java.util.List|get|(I)Ljava/lang/Object;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1536|1543|nextInt|method|java.util.Random|nextInt|(I)I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1565|1569|size|method|java.util.Collection|size|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1584|1598|savedTargetPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|savedTargetPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1606|1615|targetPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|targetPos
+   Method End: shouldExecute()Z
+   Method Start: shouldContinueExecuting()Z
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1667|1675|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1693|1716|shouldContinueExecuting|method|net.minecraft.entity.ai.EntityAIBase|shouldContinueExecuting|()Z
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1739|1745|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1746|1758|getNavigator|method|net.minecraft.entity.EntityLiving|getNavigator|()Lnet/minecraft/pathfinding/PathNavigate;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1761|1767|noPath|method|net.minecraft.pathfinding.PathNavigate|noPath|()Z
+   Method End: shouldContinueExecuting()Z
+   Method Start: updateTask()V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1780|1788|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1803|1813|updateTask|method|net.minecraft.entity.ai.EntityAIBase|updateTask|()V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1828|1834|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1835|1848|getLookHelper|method|net.minecraft.entity.EntityLiving|getLookHelper|()Lnet/minecraft/entity/ai/EntityLookHelper;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1851|1866|setLookPosition|method|net.minecraft.entity.ai.EntityLookHelper|setLookPosition|(DDDFF)V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1872|1881|targetPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|targetPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1882|1886|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1902|1911|targetPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|targetPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1912|1916|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1932|1941|targetPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|targetPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1942|1946|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1962|1968|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|1969|1991|getHorizontalFaceSpeed|method|net.minecraft.entity.EntityLiving|getHorizontalFaceSpeed|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2000|2006|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2007|2027|getVerticalFaceSpeed|method|net.minecraft.entity.EntityLiving|getVerticalFaceSpeed|()I
+   Method End: updateTask()V
+   Method Start: startExecuting()V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2041|2049|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2064|2078|startExecuting|method|net.minecraft.entity.ai.EntityAIBase|startExecuting|()V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2104|2113|targetPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|targetPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2114|2118|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2141|2150|targetPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|targetPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2151|2155|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2178|2187|targetPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|targetPos
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2188|2192|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2338|2344|entity|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|entity
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2345|2357|getNavigator|method|net.minecraft.entity.EntityLiving|getNavigator|()Lnet/minecraft/pathfinding/PathNavigate;
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2360|2372|tryMoveToXYZ|method|net.minecraft.pathfinding.PathNavigate|tryMoveToXYZ|(DDDD)Z
+   Method End: startExecuting()V
+   Method Start: resetTask()V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2412|2420|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2435|2444|resetTask|method|net.minecraft.entity.ai.EntityAIBase|resetTask|()V
+      @|ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java|2459|2468|targetPos|field|ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock|targetPos
+   Method End: resetTask()V
+Class End  : ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock
+endProcessing "ru/d78boga/dreammobs/entity/ai/EntityAIMoveToFlammableBlock.java"
+
+startProcessing "ru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator.java" md5: 4ce354fa01c20380c1c20d30feab8785
+@|ru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator.java|8|38|ru.d78boga.dreammobs.entity.ai|package|ru.d78boga.dreammobs.entity.ai|(file)
+Class Start: ru.d78boga.dreammobs.entity.ai.IEntityAITargetNavigator
+   @|ru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator.java|104|128|IEntityAITargetNavigator|class|ru.d78boga.dreammobs.entity.ai.IEntityAITargetNavigator|false
+   Method Start: getTargetPos()Lnet/minecraft/util/math/BlockPos;
+      @|ru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator.java|141|149|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator.java|150|162|getTargetPos|method|ru.d78boga.dreammobs.entity.ai.IEntityAITargetNavigator|getTargetPos|()Lnet/minecraft/util/math/BlockPos;
+   Method End: getTargetPos()Lnet/minecraft/util/math/BlockPos;
+Class End  : ru.d78boga.dreammobs.entity.ai.IEntityAITargetNavigator
+endProcessing "ru/d78boga/dreammobs/entity/ai/IEntityAITargetNavigator.java"
+
+startProcessing "ru/d78boga/dreammobs/entity/render/RenderPyro.java" md5: 981113348ced7d4c8731ac63ec0bf761
+@|ru/d78boga/dreammobs/entity/render/RenderPyro.java|8|42|ru.d78boga.dreammobs.entity.render|package|ru.d78boga.dreammobs.entity.render|(file)
+Class Start: ru.d78boga.dreammobs.entity.render.RenderPyro
+   @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|524|534|RenderPyro|class|ru.d78boga.dreammobs.entity.render.RenderPyro|false
+   @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|543|555|RenderLiving|class|net.minecraft.client.renderer.entity.RenderLiving|false
+   @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|556|566|EntityPyro|class|ru.d78boga.dreammobs.entity.EntityPyro|false
+   @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|581|597|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|581|597|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|598|605|texture|field|ru.d78boga.dreammobs.entity.render.RenderPyro|texture|
+   @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|608|623|ResourceLocator|class|ru.d78boga.dreammobs.util.ResourceLocator|false
+   @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|624|643|getResourceLocation|method|ru.d78boga.dreammobs.util.ResourceLocator|getResourceLocation|(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;
+   Method Start: RenderPyro(Lnet/minecraft/client/renderer/entity/RenderManager;)V
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|711|718|manager|param|ru.d78boga.dreammobs.entity.render.RenderPyro|RenderPyro|(Lnet/minecraft/client/renderer/entity/RenderManager;)V|manager|0
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|686|696|RenderPyro|method|ru.d78boga.dreammobs.entity.render.RenderPyro|RenderPyro|(Lnet/minecraft/client/renderer/entity/RenderManager;)V
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|697|710|RenderManager|class|net.minecraft.client.renderer.entity.RenderManager|false
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|733|740|manager|param|ru.d78boga.dreammobs.entity.render.RenderPyro|RenderPyro|(Lnet/minecraft/client/renderer/entity/RenderManager;)V|manager|0
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|746|756|ModelBiped|class|net.minecraft.client.model.ModelBiped|false
+   Method End: RenderPyro(Lnet/minecraft/client/renderer/entity/RenderManager;)V
+   @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|789|796|Factory|class|ru.d78boga.dreammobs.entity.render.RenderPyro.Factory|false
+   @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|789|796|Factory|class|ru.d78boga.dreammobs.entity.render.RenderPyro.Factory|false
+   @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|797|804|FACTORY|field|ru.d78boga.dreammobs.entity.render.RenderPyro|FACTORY|
+   @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|811|818|Factory|class|ru.d78boga.dreammobs.entity.render.RenderPyro.Factory|false
+   Method Start: getEntityTexture(Lru/d78boga/dreammobs/entity/EntityPyro;)Lnet/minecraft/util/ResourceLocation;
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|913|919|entity|param|ru.d78boga.dreammobs.entity.render.RenderPyro|getEntityTexture|(Lru/d78boga/dreammobs/entity/EntityPyro;)Lnet/minecraft/util/ResourceLocation;|entity|0
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|827|835|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|839|846|Nonnull|class|javax.annotation.Nonnull|false
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|859|875|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|876|892|getEntityTexture|method|net.minecraft.client.renderer.entity.Render|getEntityTexture|(Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|894|901|Nonnull|class|javax.annotation.Nonnull|false
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|902|912|EntityPyro|class|ru.d78boga.dreammobs.entity.EntityPyro|false
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|935|942|texture|field|ru.d78boga.dreammobs.entity.render.RenderPyro|texture
+   Method End: getEntityTexture(Lru/d78boga/dreammobs/entity/EntityPyro;)Lnet/minecraft/util/ResourceLocation;
+   Class Start: ru.d78boga.dreammobs.entity.render.RenderPyro.Factory
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|972|979|Factory|class|ru.d78boga.dreammobs.entity.render.RenderPyro.Factory|false
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|991|1005|IRenderFactory|class|net.minecraftforge.fml.client.registry.IRenderFactory|false
+      @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|1006|1016|EntityPyro|class|ru.d78boga.dreammobs.entity.EntityPyro|false
+      Method Start: createRenderFor(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;
+         @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|1102|1109|manager|param|ru.d78boga.dreammobs.entity.render.RenderPyro.Factory|createRenderFor|(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;|manager|0
+         @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|1026|1034|Override|class|java.lang.Override|false
+         @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|1045|1051|Render|class|net.minecraft.client.renderer.entity.Render|false
+         @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|1060|1070|EntityPyro|class|ru.d78boga.dreammobs.entity.EntityPyro|false
+         @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|1072|1087|createRenderFor|method|net.minecraftforge.fml.client.registry.IRenderFactory|createRenderFor|(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;
+         @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|1088|1101|RenderManager|class|net.minecraft.client.renderer.entity.RenderManager|false
+         @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|1131|1141|RenderPyro|class|ru.d78boga.dreammobs.entity.render.RenderPyro|false
+         @|ru/d78boga/dreammobs/entity/render/RenderPyro.java|1142|1149|manager|param|ru.d78boga.dreammobs.entity.render.RenderPyro.Factory|createRenderFor|(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;|manager|0
+      Method End: createRenderFor(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;
+   Class End  : ru.d78boga.dreammobs.entity.render.RenderPyro.Factory
+Class End  : ru.d78boga.dreammobs.entity.render.RenderPyro
+endProcessing "ru/d78boga/dreammobs/entity/render/RenderPyro.java"
+
+startProcessing "ru/d78boga/dreammobs/item/ItemFieryHeart.java" md5: cbd3ca5485b6ee0b12ccd55fdc10950b
+@|ru/d78boga/dreammobs/item/ItemFieryHeart.java|8|33|ru.d78boga.dreammobs.item|package|ru.d78boga.dreammobs.item|(file)
+Class Start: ru.d78boga.dreammobs.item.ItemFieryHeart
+   @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|738|752|ItemFieryHeart|class|ru.d78boga.dreammobs.item.ItemFieryHeart|false
+   @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|761|765|Item|class|net.minecraft.item.Item|false
+   @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|779|785|Potion|class|net.minecraft.potion.Potion|false
+   @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|779|785|Potion|class|net.minecraft.potion.Potion|false
+   @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|786|792|potion|field|ru.d78boga.dreammobs.item.ItemFieryHeart|potion|
+   @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|795|802|Potions|class|ru.d78boga.dreammobs.registry.Potions|false
+   @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|803|814|FIRE_SPIRIT|field|ru.d78boga.dreammobs.registry.Potions|FIRE_SPIRIT
+   @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|830|853|potionDurationInSeconds|field|ru.d78boga.dreammobs.item.ItemFieryHeart|potionDurationInSeconds|
+   Method Start: ItemFieryHeart()V
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|871|885|ItemFieryHeart|method|ru.d78boga.dreammobs.item.ItemFieryHeart|ItemFieryHeart|()V
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|900|918|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|943|958|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|983|997|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|998|1010|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1011|1015|MISC|field|net.minecraft.creativetab.CreativeTabs|MISC
+   Method End: ItemFieryHeart()V
+   Method Start: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1092|1097|world|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|0
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1112|1118|player|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|1
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1129|1133|hand|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|hand|2
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1027|1035|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1045|1057|ActionResult|class|net.minecraft.util.ActionResult|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1058|1067|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1069|1085|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1086|1091|World|class|net.minecraft.world.World|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1099|1111|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1120|1128|EnumHand|class|net.minecraft.util.EnumHand|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1142|1151|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1160|1166|player|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|1
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1167|1178|getHeldItem|method|net.minecraft.entity.EntityLivingBase|getHeldItem|(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1179|1183|hand|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|hand|2
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1196|1202|player|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|1
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1203|1215|capabilities|field|net.minecraft.entity.player.EntityPlayer|capabilities
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1216|1230|isCreativeMode|field|net.minecraft.entity.player.PlayerCapabilities|isCreativeMode
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1247|1253|shrink|method|net.minecraft.item.ItemStack|shrink|(I)V
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1268|1273|world|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|0
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1274|1283|playSound|method|net.minecraft.world.World|playSound|(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1284|1290|player|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|1
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1292|1298|player|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|1
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1299|1310|getPosition|method|net.minecraft.command.ICommandSender|getPosition|()Lnet/minecraft/util/math/BlockPos;
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1314|1320|Sounds|class|ru.d78boga.dreammobs.registry.Sounds|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1321|1341|ITEM_FIERY_HEART_USE|field|ru.d78boga.dreammobs.registry.Sounds|ITEM_FIERY_HEART_USE
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1343|1356|SoundCategory|class|net.minecraft.util.SoundCategory|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1357|1364|PLAYERS|field|net.minecraft.util.SoundCategory|PLAYERS
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1372|1377|world|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|0
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1378|1382|rand|field|net.minecraft.world.World|rand
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1383|1392|nextFloat|method|java.util.Random|nextFloat|()F
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1419|1429|onItemUsed|method|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemUsed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1437|1442|world|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|0
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1444|1450|player|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|1
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1456|1462|player|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|1
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1463|1470|addStat|method|net.minecraft.entity.player.EntityPlayer|addStat|(Lnet/minecraft/stats/StatBase;)V
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1471|1479|StatList|class|net.minecraft.stats.StatList|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1480|1497|getObjectUseStats|method|net.minecraft.stats.StatList|getObjectUseStats|(Lnet/minecraft/item/Item;)Lnet/minecraft/stats/StatBase;
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1515|1521|player|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|1
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1533|1547|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1558|1574|CriteriaTriggers|class|net.minecraft.advancements.CriteriaTriggers|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1575|1587|CONSUME_ITEM|field|net.minecraft.advancements.CriteriaTriggers|CONSUME_ITEM
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1588|1595|trigger|method|net.minecraft.advancements.critereon.ConsumeItemTrigger|trigger|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/item/ItemStack;)V
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1597|1611|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1613|1619|player|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|player|1
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1650|1662|ActionResult|class|net.minecraft.util.ActionResult|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1663|1672|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1674|1690|EnumActionResult|class|net.minecraft.util.EnumActionResult|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1691|1698|SUCCESS|field|net.minecraft.util.EnumActionResult|SUCCESS
+   Method End: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+   Method Start: onItemUsed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1750|1755|stack|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemUsed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|stack|0
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1763|1768|world|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemUsed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|world|1
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1783|1789|player|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemUsed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|player|2
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1729|1739|onItemUsed|method|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemUsed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1740|1749|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1757|1762|World|class|net.minecraft.world.World|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1770|1782|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1803|1808|world|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemUsed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|world|1
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1809|1817|isRemote|field|net.minecraft.world.World|isRemote
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1828|1834|player|param|ru.d78boga.dreammobs.item.ItemFieryHeart|onItemUsed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|player|2
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1835|1850|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1855|1867|PotionEffect|class|net.minecraft.potion.PotionEffect|false
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1873|1879|potion|field|ru.d78boga.dreammobs.item.ItemFieryHeart|potion
+      @|ru/d78boga/dreammobs/item/ItemFieryHeart.java|1887|1910|potionDurationInSeconds|field|ru.d78boga.dreammobs.item.ItemFieryHeart|potionDurationInSeconds
+   Method End: onItemUsed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V
+Class End  : ru.d78boga.dreammobs.item.ItemFieryHeart
+endProcessing "ru/d78boga/dreammobs/item/ItemFieryHeart.java"
+
+startProcessing "ru/d78boga/dreammobs/potion/PotionFireSpirit.java" md5: b4237d753a580c0b405808bf0ea99565
+@|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|8|35|ru.d78boga.dreammobs.potion|package|ru.d78boga.dreammobs.potion|(file)
+Class Start: ru.d78boga.dreammobs.potion.PotionFireSpirit
+   @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|761|783|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
+   @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|784|789|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+   @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|792|801|DreamMobs|class|ru.d78boga.dreammobs.DreamMobs|false
+   @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|802|807|MODID|field|ru.d78boga.dreammobs.DreamMobs|MODID
+   @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|823|839|PotionFireSpirit|class|ru.d78boga.dreammobs.potion.PotionFireSpirit|false
+   @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|848|854|Potion|class|net.minecraft.potion.Potion|false
+   @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|879|891|fireDuration|field|ru.d78boga.dreammobs.potion.PotionFireSpirit|fireDuration|
+   @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|907|923|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|907|923|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|924|930|sprite|field|ru.d78boga.dreammobs.potion.PotionFireSpirit|sprite|
+   @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|933|948|ResourceLocator|class|ru.d78boga.dreammobs.util.ResourceLocator|false
+   @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|949|968|getResourceLocation|method|ru.d78boga.dreammobs.util.ResourceLocator|getResourceLocation|(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;
+   Method Start: PotionFireSpirit(ZI)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1038|1051|isBadEffectIn|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|PotionFireSpirit|(ZI)V|isBadEffectIn|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1057|1070|liquidColorIn|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|PotionFireSpirit|(ZI)V|liquidColorIn|1
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1013|1029|PotionFireSpirit|method|ru.d78boga.dreammobs.potion.PotionFireSpirit|PotionFireSpirit|(ZI)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1085|1098|isBadEffectIn|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|PotionFireSpirit|(ZI)V|isBadEffectIn|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1100|1113|liquidColorIn|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|PotionFireSpirit|(ZI)V|liquidColorIn|1
+   Method End: PotionFireSpirit(ZI)V
+   Method Start: onEntityHurted(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1192|1197|event|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|onEntityHurted|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1125|1139|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1161|1175|onEntityHurted|method|ru.d78boga.dreammobs.potion.PotionFireSpirit|onEntityHurted|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1176|1191|LivingHurtEvent|class|net.minecraftforge.event.entity.living.LivingHurtEvent|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1210|1215|event|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|onEntityHurted|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1216|1231|getEntityLiving|method|net.minecraftforge.event.entity.living.LivingEvent|getEntityLiving|()Lnet/minecraft/entity/EntityLivingBase;
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1234|1248|isPotionActive|method|net.minecraft.entity.EntityLivingBase|isPotionActive|(Lnet/minecraft/potion/Potion;)Z
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1249|1256|Potions|class|ru.d78boga.dreammobs.registry.Potions|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1257|1268|FIRE_SPIRIT|field|ru.d78boga.dreammobs.registry.Potions|FIRE_SPIRIT
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1284|1289|event|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|onEntityHurted|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1290|1299|getSource|method|net.minecraftforge.event.entity.living.LivingHurtEvent|getSource|()Lnet/minecraft/util/DamageSource;
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1302|1314|isFireDamage|method|net.minecraft.util.DamageSource|isFireDamage|()Z
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1329|1334|event|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|onEntityHurted|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1335|1346|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1369|1374|event|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|onEntityHurted|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1375|1384|getSource|method|net.minecraftforge.event.entity.living.LivingHurtEvent|getSource|()Lnet/minecraft/util/DamageSource;
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1387|1400|getTrueSource|method|net.minecraft.util.DamageSource|getTrueSource|()Lnet/minecraft/entity/Entity;
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1423|1429|Entity|class|net.minecraft.entity.Entity|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1440|1445|event|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|onEntityHurted|(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V|event|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1446|1455|getSource|method|net.minecraftforge.event.entity.living.LivingHurtEvent|getSource|()Lnet/minecraft/util/DamageSource;
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1458|1471|getTrueSource|method|net.minecraft.util.DamageSource|getTrueSource|()Lnet/minecraft/entity/Entity;
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1488|1495|setFire|method|net.minecraft.entity.Entity|setFire|(I)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1496|1512|PotionFireSpirit|class|ru.d78boga.dreammobs.potion.PotionFireSpirit|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1513|1525|fireDuration|field|ru.d78boga.dreammobs.potion.PotionFireSpirit|fireDuration
+   Method End: onEntityHurted(Lnet/minecraftforge/event/entity/living/LivingHurtEvent;)V
+   Method Start: onEntityAttacked(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1619|1624|event|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|onEntityAttacked|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V|event|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1548|1562|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1584|1600|onEntityAttacked|method|ru.d78boga.dreammobs.potion.PotionFireSpirit|onEntityAttacked|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1601|1618|AttackEntityEvent|class|net.minecraftforge.event.entity.player.AttackEntityEvent|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1637|1642|event|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|onEntityAttacked|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V|event|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1643|1658|getEntityLiving|method|net.minecraftforge.event.entity.living.LivingEvent|getEntityLiving|()Lnet/minecraft/entity/EntityLivingBase;
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1661|1675|isPotionActive|method|net.minecraft.entity.EntityLivingBase|isPotionActive|(Lnet/minecraft/potion/Potion;)Z
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1676|1683|Potions|class|ru.d78boga.dreammobs.registry.Potions|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1684|1695|FIRE_SPIRIT|field|ru.d78boga.dreammobs.registry.Potions|FIRE_SPIRIT
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1707|1712|event|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|onEntityAttacked|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V|event|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1713|1722|getTarget|method|net.minecraftforge.event.entity.player.AttackEntityEvent|getTarget|()Lnet/minecraft/entity/Entity;
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1725|1732|setFire|method|net.minecraft.entity.Entity|setFire|(I)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1733|1749|PotionFireSpirit|class|ru.d78boga.dreammobs.potion.PotionFireSpirit|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1750|1762|fireDuration|field|ru.d78boga.dreammobs.potion.PotionFireSpirit|fireDuration
+   Method End: onEntityAttacked(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V
+   Method Start: renderInventoryEffect(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1853|1854|x|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderInventoryEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;)V|x|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1860|1861|y|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderInventoryEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;)V|y|1
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1876|1882|effect|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderInventoryEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;)V|effect|2
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1894|1896|mc|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderInventoryEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;)V|mc|3
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1779|1787|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1791|1799|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1800|1804|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1805|1811|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1827|1848|renderInventoryEffect|method|net.minecraft.potion.Potion|renderInventoryEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1863|1875|PotionEffect|class|net.minecraft.potion.PotionEffect|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1884|1893|Minecraft|class|net.minecraft.client.Minecraft|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1905|1907|mc|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderInventoryEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;)V|mc|3
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1908|1920|renderEngine|field|net.minecraft.client.Minecraft|renderEngine
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1921|1932|bindTexture|method|net.minecraft.client.renderer.texture.TextureManager|bindTexture|(Lnet/minecraft/util/ResourceLocation;)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1933|1939|sprite|field|ru.d78boga.dreammobs.potion.PotionFireSpirit|sprite
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1945|1948|Gui|class|net.minecraft.client.gui.Gui|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1949|1984|drawModalRectWithCustomSizedTexture|method|net.minecraft.client.gui.Gui|drawModalRectWithCustomSizedTexture|(IIFFIIFF)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1985|1986|x|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderInventoryEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;)V|x|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|1992|1993|y|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderInventoryEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;)V|y|1
+   Method End: renderInventoryEffect(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;)V
+   Method Start: renderHUDEffect(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;F)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2099|2100|x|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderHUDEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;F)V|x|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2106|2107|y|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderHUDEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;F)V|y|1
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2122|2128|effect|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderHUDEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;F)V|effect|2
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2140|2142|mc|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderHUDEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;F)V|mc|3
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2150|2155|alpha|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderHUDEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;F)V|alpha|4
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2031|2039|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2043|2051|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2052|2056|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2057|2063|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2079|2094|renderHUDEffect|method|net.minecraft.potion.Potion|renderHUDEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;F)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2109|2121|PotionEffect|class|net.minecraft.potion.PotionEffect|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2130|2139|Minecraft|class|net.minecraft.client.Minecraft|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2164|2166|mc|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderHUDEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;F)V|mc|3
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2167|2179|renderEngine|field|net.minecraft.client.Minecraft|renderEngine
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2180|2191|bindTexture|method|net.minecraft.client.renderer.texture.TextureManager|bindTexture|(Lnet/minecraft/util/ResourceLocation;)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2192|2198|sprite|field|ru.d78boga.dreammobs.potion.PotionFireSpirit|sprite
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2204|2207|Gui|class|net.minecraft.client.gui.Gui|false
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2208|2243|drawModalRectWithCustomSizedTexture|method|net.minecraft.client.gui.Gui|drawModalRectWithCustomSizedTexture|(IIFFIIFF)V
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2244|2245|x|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderHUDEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;F)V|x|0
+      @|ru/d78boga/dreammobs/potion/PotionFireSpirit.java|2251|2252|y|param|ru.d78boga.dreammobs.potion.PotionFireSpirit|renderHUDEffect|(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;F)V|y|1
+   Method End: renderHUDEffect(IILnet/minecraft/potion/PotionEffect;Lnet/minecraft/client/Minecraft;F)V
+Class End  : ru.d78boga.dreammobs.potion.PotionFireSpirit
+endProcessing "ru/d78boga/dreammobs/potion/PotionFireSpirit.java"
+
+startProcessing "ru/d78boga/dreammobs/proxy/ClientProxy.java" md5: 683941189a7bd667cc2d6340da18080a
+@|ru/d78boga/dreammobs/proxy/ClientProxy.java|8|34|ru.d78boga.dreammobs.proxy|package|ru.d78boga.dreammobs.proxy|(file)
+Class Start: ru.d78boga.dreammobs.proxy.ClientProxy
+   @|ru/d78boga/dreammobs/proxy/ClientProxy.java|358|369|ClientProxy|class|ru.d78boga.dreammobs.proxy.ClientProxy|false
+   @|ru/d78boga/dreammobs/proxy/ClientProxy.java|378|389|CommonProxy|class|ru.d78boga.dreammobs.proxy.CommonProxy|false
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|453|458|event|param|ru.d78boga.dreammobs.proxy.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|396|404|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|419|426|preInit|method|ru.d78boga.dreammobs.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|427|452|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|473|480|preInit|method|ru.d78boga.dreammobs.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|481|486|event|param|ru.d78boga.dreammobs.proxy.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|492|500|Entities|class|ru.d78boga.dreammobs.registry.Entities|false
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|501|509|REGISTRY|field|ru.d78boga.dreammobs.registry.Entities|REGISTRY
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|510|528|registerAllRenders|method|ru.d78boga.dreammobs.registry.Entities.Registry|registerAllRenders|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|592|597|event|param|ru.d78boga.dreammobs.proxy.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|541|549|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|564|568|init|method|ru.d78boga.dreammobs.proxy.IProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|569|591|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|612|616|init|method|ru.d78boga.dreammobs.proxy.IProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|617|622|event|param|ru.d78boga.dreammobs.proxy.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|628|633|Items|class|ru.d78boga.dreammobs.registry.Items|false
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|634|642|REGISTRY|field|ru.d78boga.dreammobs.registry.Items|REGISTRY
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|643|661|registerAllRenders|method|ru.d78boga.dreammobs.registry.Items.Registry|registerAllRenders|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|733|738|event|param|ru.d78boga.dreammobs.proxy.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|674|682|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|697|705|postInit|method|ru.d78boga.dreammobs.proxy.IProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|706|732|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|753|761|postInit|method|ru.d78boga.dreammobs.proxy.IProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/ClientProxy.java|762|767|event|param|ru.d78boga.dreammobs.proxy.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : ru.d78boga.dreammobs.proxy.ClientProxy
+endProcessing "ru/d78boga/dreammobs/proxy/ClientProxy.java"
+
+startProcessing "ru/d78boga/dreammobs/proxy/CommonProxy.java" md5: 14ef5d48edac5d45c0e7f65a206fd050
+@|ru/d78boga/dreammobs/proxy/CommonProxy.java|8|34|ru.d78boga.dreammobs.proxy|package|ru.d78boga.dreammobs.proxy|(file)
+Class Start: ru.d78boga.dreammobs.proxy.CommonProxy
+   @|ru/d78boga/dreammobs/proxy/CommonProxy.java|358|369|CommonProxy|class|ru.d78boga.dreammobs.proxy.CommonProxy|false
+   @|ru/d78boga/dreammobs/proxy/CommonProxy.java|381|387|IProxy|class|ru.d78boga.dreammobs.proxy.IProxy|false
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|451|456|event|param|ru.d78boga.dreammobs.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|394|402|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|417|424|preInit|method|ru.d78boga.dreammobs.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|425|450|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|465|470|Items|class|ru.d78boga.dreammobs.registry.Items|false
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|471|479|REGISTRY|field|ru.d78boga.dreammobs.registry.Items|REGISTRY
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|480|491|registerAll|method|ru.d78boga.dreammobs.registry.Items.Registry|registerAll|()V
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|498|506|Entities|class|ru.d78boga.dreammobs.registry.Entities|false
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|507|515|REGISTRY|field|ru.d78boga.dreammobs.registry.Entities|REGISTRY
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|516|527|registerAll|method|ru.d78boga.dreammobs.registry.Entities.Registry|registerAll|()V
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|534|542|Entities|class|ru.d78boga.dreammobs.registry.Entities|false
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|543|551|REGISTRY|field|ru.d78boga.dreammobs.registry.Entities|REGISTRY
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|552|562|initSpawns|method|ru.d78boga.dreammobs.registry.Entities.Registry|initSpawns|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|626|631|event|param|ru.d78boga.dreammobs.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|575|583|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|598|602|init|method|ru.d78boga.dreammobs.proxy.IProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|603|625|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|707|712|event|param|ru.d78boga.dreammobs.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|648|656|Override|class|java.lang.Override|false
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|671|679|postInit|method|ru.d78boga.dreammobs.proxy.IProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/CommonProxy.java|680|706|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : ru.d78boga.dreammobs.proxy.CommonProxy
+endProcessing "ru/d78boga/dreammobs/proxy/CommonProxy.java"
+
+startProcessing "ru/d78boga/dreammobs/proxy/IProxy.java" md5: 351d49c992c01655b8a052008d81d0d8
+@|ru/d78boga/dreammobs/proxy/IProxy.java|8|34|ru.d78boga.dreammobs.proxy|package|ru.d78boga.dreammobs.proxy|(file)
+Class Start: ru.d78boga.dreammobs.proxy.IProxy
+   @|ru/d78boga/dreammobs/proxy/IProxy.java|269|275|IProxy|class|ru.d78boga.dreammobs.proxy.IProxy|false
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/IProxy.java|326|331|event|param|ru.d78boga.dreammobs.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/proxy/IProxy.java|292|299|preInit|method|ru.d78boga.dreammobs.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/IProxy.java|300|325|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/IProxy.java|378|383|event|param|ru.d78boga.dreammobs.proxy.IProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/proxy/IProxy.java|350|354|init|method|ru.d78boga.dreammobs.proxy.IProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/IProxy.java|355|377|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/IProxy.java|438|443|event|param|ru.d78boga.dreammobs.proxy.IProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|ru/d78boga/dreammobs/proxy/IProxy.java|402|410|postInit|method|ru.d78boga.dreammobs.proxy.IProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|ru/d78boga/dreammobs/proxy/IProxy.java|411|437|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : ru.d78boga.dreammobs.proxy.IProxy
+endProcessing "ru/d78boga/dreammobs/proxy/IProxy.java"
+
+startProcessing "ru/d78boga/dreammobs/registry/Entities.java" md5: a54955d98a7c8c20e6dc3cf18aeeb0d5
+@|ru/d78boga/dreammobs/registry/Entities.java|8|37|ru.d78boga.dreammobs.registry|package|ru.d78boga.dreammobs.registry|(file)
+Class Start: ru.d78boga.dreammobs.registry.Entities
+   @|ru/d78boga/dreammobs/registry/Entities.java|988|996|Entities|class|ru.d78boga.dreammobs.registry.Entities|false
+   @|ru/d78boga/dreammobs/registry/Entities.java|1016|1024|Registry|class|ru.d78boga.dreammobs.registry.Entities.Registry|false
+   @|ru/d78boga/dreammobs/registry/Entities.java|1016|1024|Registry|class|ru.d78boga.dreammobs.registry.Entities.Registry|false
+   @|ru/d78boga/dreammobs/registry/Entities.java|1025|1033|REGISTRY|field|ru.d78boga.dreammobs.registry.Entities|REGISTRY|
+   @|ru/d78boga/dreammobs/registry/Entities.java|1040|1048|Registry|class|ru.d78boga.dreammobs.registry.Entities.Registry|false
+   Class Start: ru.d78boga.dreammobs.registry.Entities.Registry
+      @|ru/d78boga/dreammobs/registry/Entities.java|1076|1084|Registry|class|ru.d78boga.dreammobs.registry.Entities.Registry|false
+      @|ru/d78boga/dreammobs/registry/Entities.java|1115|1126|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+      @|ru/d78boga/dreammobs/registry/Entities.java|1100|1114|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry|false
+      @|ru/d78boga/dreammobs/registry/Entities.java|1100|1114|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry|false
+      @|ru/d78boga/dreammobs/registry/Entities.java|1115|1126|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+      @|ru/d78boga/dreammobs/registry/Entities.java|1128|1141|forgeRegistry|field|ru.d78boga.dreammobs.registry.Entities.Registry|forgeRegistry|
+      Method Start: Registry()V
+         @|ru/d78boga/dreammobs/registry/Entities.java|1155|1163|Registry|method|ru.d78boga.dreammobs.registry.Entities.Registry|Registry|()V
+         @|ru/d78boga/dreammobs/registry/Entities.java|1175|1188|forgeRegistry|field|ru.d78boga.dreammobs.registry.Entities.Registry|forgeRegistry
+         @|ru/d78boga/dreammobs/registry/Entities.java|1191|1206|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1207|1215|ENTITIES|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ENTITIES
+      Method End: Registry()V
+      Method Start: initSpawns()V
+         @|ru/d78boga/dreammobs/registry/Entities.java|1239|1249|initSpawns|method|ru.d78boga.dreammobs.registry.Entities.Registry|initSpawns|()V
+         @|ru/d78boga/dreammobs/registry/Entities.java|1261|1266|Biome|class|net.minecraft.world.biome.Biome|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1288|1293|Biome|class|net.minecraft.world.biome.Biome|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1302|1308|Biomes|class|net.minecraft.init.Biomes|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1309|1315|FOREST|field|net.minecraft.init.Biomes|FOREST
+         @|ru/d78boga/dreammobs/registry/Entities.java|1317|1323|Biomes|class|net.minecraft.init.Biomes|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1324|1336|FOREST_HILLS|field|net.minecraft.init.Biomes|FOREST_HILLS
+         @|ru/d78boga/dreammobs/registry/Entities.java|1338|1344|Biomes|class|net.minecraft.init.Biomes|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1345|1357|BIRCH_FOREST|field|net.minecraft.init.Biomes|BIRCH_FOREST
+         @|ru/d78boga/dreammobs/registry/Entities.java|1359|1365|Biomes|class|net.minecraft.init.Biomes|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1366|1384|BIRCH_FOREST_HILLS|field|net.minecraft.init.Biomes|BIRCH_FOREST_HILLS
+         @|ru/d78boga/dreammobs/registry/Entities.java|1386|1392|Biomes|class|net.minecraft.init.Biomes|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1393|1403|COLD_TAIGA|field|net.minecraft.init.Biomes|COLD_TAIGA
+         @|ru/d78boga/dreammobs/registry/Entities.java|1405|1411|Biomes|class|net.minecraft.init.Biomes|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1412|1428|COLD_TAIGA_HILLS|field|net.minecraft.init.Biomes|COLD_TAIGA_HILLS
+         @|ru/d78boga/dreammobs/registry/Entities.java|1436|1450|EntityRegistry|class|net.minecraftforge.fml.common.registry.EntityRegistry|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1451|1459|addSpawn|method|net.minecraftforge.fml.common.registry.EntityRegistry|addSpawn|(Ljava/lang/Class;IIILnet/minecraft/entity/EnumCreatureType;[Lnet/minecraft/world/biome/Biome;)V
+         @|ru/d78boga/dreammobs/registry/Entities.java|1460|1470|EntityPyro|class|ru.d78boga.dreammobs.entity.EntityPyro|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1487|1503|EnumCreatureType|class|net.minecraft.entity.EnumCreatureType|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1504|1511|MONSTER|field|net.minecraft.entity.EnumCreatureType|MONSTER
+      Method End: initSpawns()V
+      Method Start: registerAll()V
+         @|ru/d78boga/dreammobs/registry/Entities.java|1550|1561|registerAll|method|ru.d78boga.dreammobs.registry.Entities.Registry|registerAll|()V
+         @|ru/d78boga/dreammobs/registry/Entities.java|1573|1581|register|method|ru.d78boga.dreammobs.registry.Entities.Registry|register|(Ljava/lang/Class;Ljava/lang/String;II)V
+         @|ru/d78boga/dreammobs/registry/Entities.java|1582|1592|EntityPyro|class|ru.d78boga.dreammobs.entity.EntityPyro|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1608|1616|MapColor|class|net.minecraft.block.material.MapColor|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1617|1622|BROWN|field|net.minecraft.block.material.MapColor|BROWN
+         @|ru/d78boga/dreammobs/registry/Entities.java|1623|1633|colorValue|field|net.minecraft.block.material.MapColor|colorValue
+         @|ru/d78boga/dreammobs/registry/Entities.java|1635|1643|MapColor|class|net.minecraft.block.material.MapColor|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1644|1648|BLUE|field|net.minecraft.block.material.MapColor|BLUE
+         @|ru/d78boga/dreammobs/registry/Entities.java|1649|1659|colorValue|field|net.minecraft.block.material.MapColor|colorValue
+      Method End: registerAll()V
+      Method Start: register(Ljava/lang/Class;Ljava/lang/String;II)V
+         @|ru/d78boga/dreammobs/registry/Entities.java|1722|1733|entityClass|param|ru.d78boga.dreammobs.registry.Entities.Registry|register|(Ljava/lang/Class;Ljava/lang/String;II)V|entityClass|0
+         @|ru/d78boga/dreammobs/registry/Entities.java|1742|1752|entityName|param|ru.d78boga.dreammobs.registry.Entities.Registry|register|(Ljava/lang/Class;Ljava/lang/String;II)V|entityName|1
+         @|ru/d78boga/dreammobs/registry/Entities.java|1758|1771|firstEggColor|param|ru.d78boga.dreammobs.registry.Entities.Registry|register|(Ljava/lang/Class;Ljava/lang/String;II)V|firstEggColor|2
+         @|ru/d78boga/dreammobs/registry/Entities.java|1777|1791|secondEggColor|param|ru.d78boga.dreammobs.registry.Entities.Registry|register|(Ljava/lang/Class;Ljava/lang/String;II)V|secondEggColor|3
+         @|ru/d78boga/dreammobs/registry/Entities.java|1691|1697|Entity|class|net.minecraft.entity.Entity|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1704|1712|register|method|ru.d78boga.dreammobs.registry.Entities.Registry|register|(Ljava/lang/Class;Ljava/lang/String;II)V
+         @|ru/d78boga/dreammobs/registry/Entities.java|1713|1718|Class|class|java.lang.Class|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1735|1741|String|class|java.lang.String|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1802|1813|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1832|1843|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1844|1855|entityClass|param|ru.d78boga.dreammobs.registry.Entities.Registry|register|(Ljava/lang/Class;Ljava/lang/String;II)V|entityClass|0
+         @|ru/d78boga/dreammobs/registry/Entities.java|1857|1867|entityName|param|ru.d78boga.dreammobs.registry.Entities.Registry|register|(Ljava/lang/Class;Ljava/lang/String;II)V|entityName|1
+         @|ru/d78boga/dreammobs/registry/Entities.java|1874|1890|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1910|1925|ResourceLocator|class|ru.d78boga.dreammobs.util.ResourceLocator|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|1926|1945|getResourceLocation|method|ru.d78boga.dreammobs.util.ResourceLocator|getResourceLocation|(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;
+         @|ru/d78boga/dreammobs/registry/Entities.java|1946|1956|entityName|param|ru.d78boga.dreammobs.registry.Entities.Registry|register|(Ljava/lang/Class;Ljava/lang/String;II)V|entityName|1
+         @|ru/d78boga/dreammobs/registry/Entities.java|1975|1990|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+         @|ru/d78boga/dreammobs/registry/Entities.java|2026|2032|setEgg|method|net.minecraftforge.fml.common.registry.EntityEntry|setEgg|(Lnet/minecraft/entity/EntityList$EntityEggInfo;)V
+         @|ru/d78boga/dreammobs/registry/Entities.java|2037|2050|EntityEggInfo|class|net.minecraft.entity.EntityList.EntityEggInfo|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|2069|2082|firstEggColor|param|ru.d78boga.dreammobs.registry.Entities.Registry|register|(Ljava/lang/Class;Ljava/lang/String;II)V|firstEggColor|2
+         @|ru/d78boga/dreammobs/registry/Entities.java|2084|2098|secondEggColor|param|ru.d78boga.dreammobs.registry.Entities.Registry|register|(Ljava/lang/Class;Ljava/lang/String;II)V|secondEggColor|3
+         @|ru/d78boga/dreammobs/registry/Entities.java|2106|2119|forgeRegistry|field|ru.d78boga.dreammobs.registry.Entities.Registry|forgeRegistry
+         @|ru/d78boga/dreammobs/registry/Entities.java|2120|2128|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      Method End: register(Ljava/lang/Class;Ljava/lang/String;II)V
+      Method Start: registerAllRenders()V
+         @|ru/d78boga/dreammobs/registry/Entities.java|2154|2162|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|2163|2167|Side|class|net.minecraftforge.fml.relauncher.Side|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|2168|2174|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+         @|ru/d78boga/dreammobs/registry/Entities.java|2191|2209|registerAllRenders|method|ru.d78boga.dreammobs.registry.Entities.Registry|registerAllRenders|()V
+         @|ru/d78boga/dreammobs/registry/Entities.java|2221|2235|registerRender|method|ru.d78boga.dreammobs.registry.Entities.Registry|registerRender|(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V
+         @|ru/d78boga/dreammobs/registry/Entities.java|2236|2246|EntityPyro|class|ru.d78boga.dreammobs.entity.EntityPyro|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|2254|2264|RenderPyro|class|ru.d78boga.dreammobs.entity.render.RenderPyro|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|2265|2272|FACTORY|field|ru.d78boga.dreammobs.entity.render.RenderPyro|FACTORY
+      Method End: registerAllRenders()V
+      Method Start: registerRender(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V
+         @|ru/d78boga/dreammobs/registry/Entities.java|2367|2378|entityClass|param|ru.d78boga.dreammobs.registry.Entities.Registry|registerRender|(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V|entityClass|0
+         @|ru/d78boga/dreammobs/registry/Entities.java|2398|2417|entityRenderFactory|param|ru.d78boga.dreammobs.registry.Entities.Registry|registerRender|(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V|entityRenderFactory|1
+         @|ru/d78boga/dreammobs/registry/Entities.java|2286|2294|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|2295|2299|Side|class|net.minecraftforge.fml.relauncher.Side|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|2300|2306|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+         @|ru/d78boga/dreammobs/registry/Entities.java|2330|2336|Entity|class|net.minecraft.entity.Entity|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|2343|2357|registerRender|method|ru.d78boga.dreammobs.registry.Entities.Registry|registerRender|(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V
+         @|ru/d78boga/dreammobs/registry/Entities.java|2358|2363|Class|class|java.lang.Class|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|2380|2394|IRenderFactory|class|net.minecraftforge.fml.client.registry.IRenderFactory|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|2428|2445|RenderingRegistry|class|net.minecraftforge.fml.client.registry.RenderingRegistry|false
+         @|ru/d78boga/dreammobs/registry/Entities.java|2446|2476|registerEntityRenderingHandler|method|net.minecraftforge.fml.client.registry.RenderingRegistry|registerEntityRenderingHandler|(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V
+         @|ru/d78boga/dreammobs/registry/Entities.java|2477|2488|entityClass|param|ru.d78boga.dreammobs.registry.Entities.Registry|registerRender|(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V|entityClass|0
+         @|ru/d78boga/dreammobs/registry/Entities.java|2490|2509|entityRenderFactory|param|ru.d78boga.dreammobs.registry.Entities.Registry|registerRender|(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V|entityRenderFactory|1
+      Method End: registerRender(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V
+   Class End  : ru.d78boga.dreammobs.registry.Entities.Registry
+Class End  : ru.d78boga.dreammobs.registry.Entities
+endProcessing "ru/d78boga/dreammobs/registry/Entities.java"
+
+startProcessing "ru/d78boga/dreammobs/registry/Items.java" md5: e8b1f2be0f3eac0d0fe5441eb4896c09
+@|ru/d78boga/dreammobs/registry/Items.java|8|37|ru.d78boga.dreammobs.registry|package|ru.d78boga.dreammobs.registry|(file)
+Class Start: ru.d78boga.dreammobs.registry.Items
+   @|ru/d78boga/dreammobs/registry/Items.java|552|557|Items|class|ru.d78boga.dreammobs.registry.Items|false
+   @|ru/d78boga/dreammobs/registry/Items.java|577|585|Registry|class|ru.d78boga.dreammobs.registry.Items.Registry|false
+   @|ru/d78boga/dreammobs/registry/Items.java|577|585|Registry|class|ru.d78boga.dreammobs.registry.Items.Registry|false
+   @|ru/d78boga/dreammobs/registry/Items.java|586|594|REGISTRY|field|ru.d78boga.dreammobs.registry.Items|REGISTRY|
+   @|ru/d78boga/dreammobs/registry/Items.java|601|609|Registry|class|ru.d78boga.dreammobs.registry.Items.Registry|false
+   Class Start: ru.d78boga.dreammobs.registry.Items.Registry
+      @|ru/d78boga/dreammobs/registry/Items.java|637|645|Registry|class|ru.d78boga.dreammobs.registry.Items.Registry|false
+      @|ru/d78boga/dreammobs/registry/Items.java|676|680|Item|class|net.minecraft.item.Item|false
+      @|ru/d78boga/dreammobs/registry/Items.java|666|675|ArrayList|class|java.util.ArrayList|false
+      @|ru/d78boga/dreammobs/registry/Items.java|666|675|ArrayList|class|java.util.ArrayList|false
+      @|ru/d78boga/dreammobs/registry/Items.java|676|680|Item|class|net.minecraft.item.Item|false
+      @|ru/d78boga/dreammobs/registry/Items.java|682|687|items|field|ru.d78boga.dreammobs.registry.Items.Registry|items|
+      @|ru/d78boga/dreammobs/registry/Items.java|694|703|ArrayList|class|java.util.ArrayList|false
+      @|ru/d78boga/dreammobs/registry/Items.java|704|708|Item|class|net.minecraft.item.Item|false
+      @|ru/d78boga/dreammobs/registry/Items.java|723|737|ItemFieryHeart|class|ru.d78boga.dreammobs.item.ItemFieryHeart|false
+      @|ru/d78boga/dreammobs/registry/Items.java|723|737|ItemFieryHeart|class|ru.d78boga.dreammobs.item.ItemFieryHeart|false
+      @|ru/d78boga/dreammobs/registry/Items.java|738|748|fieryHeart|field|ru.d78boga.dreammobs.registry.Items.Registry|fieryHeart|
+      @|ru/d78boga/dreammobs/registry/Items.java|763|773|RenderItem|class|net.minecraft.client.renderer.RenderItem|false
+      @|ru/d78boga/dreammobs/registry/Items.java|763|773|RenderItem|class|net.minecraft.client.renderer.RenderItem|false
+      @|ru/d78boga/dreammobs/registry/Items.java|774|784|renderItem|field|ru.d78boga.dreammobs.registry.Items.Registry|renderItem|
+      @|ru/d78boga/dreammobs/registry/Items.java|812|816|Item|class|net.minecraft.item.Item|false
+      @|ru/d78boga/dreammobs/registry/Items.java|797|811|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry|false
+      @|ru/d78boga/dreammobs/registry/Items.java|797|811|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry|false
+      @|ru/d78boga/dreammobs/registry/Items.java|812|816|Item|class|net.minecraft.item.Item|false
+      @|ru/d78boga/dreammobs/registry/Items.java|818|831|forgeRegistry|field|ru.d78boga.dreammobs.registry.Items.Registry|forgeRegistry|
+      Method Start: Registry()V
+         @|ru/d78boga/dreammobs/registry/Items.java|845|853|Registry|method|ru.d78boga.dreammobs.registry.Items.Registry|Registry|()V
+         @|ru/d78boga/dreammobs/registry/Items.java|865|878|forgeRegistry|field|ru.d78boga.dreammobs.registry.Items.Registry|forgeRegistry
+         @|ru/d78boga/dreammobs/registry/Items.java|881|896|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries|false
+         @|ru/d78boga/dreammobs/registry/Items.java|897|902|ITEMS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ITEMS
+      Method End: Registry()V
+      Method Start: registerAll()V
+         @|ru/d78boga/dreammobs/registry/Items.java|926|937|registerAll|method|ru.d78boga.dreammobs.registry.Items.Registry|registerAll|()V
+         @|ru/d78boga/dreammobs/registry/Items.java|949|954|items|field|ru.d78boga.dreammobs.registry.Items.Registry|items
+         @|ru/d78boga/dreammobs/registry/Items.java|955|960|clear|method|java.util.Collection|clear|()V
+         @|ru/d78boga/dreammobs/registry/Items.java|968|978|fieryHeart|field|ru.d78boga.dreammobs.registry.Items.Registry|fieryHeart
+         @|ru/d78boga/dreammobs/registry/Items.java|981|989|register|method|ru.d78boga.dreammobs.registry.Items.Registry|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+         @|ru/d78boga/dreammobs/registry/Items.java|994|1008|ItemFieryHeart|class|ru.d78boga.dreammobs.item.ItemFieryHeart|false
+      Method End: registerAll()V
+      Method Start: register(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+         @|ru/d78boga/dreammobs/registry/Items.java|1061|1065|item|param|ru.d78boga.dreammobs.registry.Items.Registry|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;|item|0
+         @|ru/d78boga/dreammobs/registry/Items.java|1042|1046|Item|class|net.minecraft.item.Item|false
+         @|ru/d78boga/dreammobs/registry/Items.java|1050|1058|register|method|ru.d78boga.dreammobs.registry.Items.Registry|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+         @|ru/d78boga/dreammobs/registry/Items.java|1076|1089|forgeRegistry|field|ru.d78boga.dreammobs.registry.Items.Registry|forgeRegistry
+         @|ru/d78boga/dreammobs/registry/Items.java|1090|1098|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+         @|ru/d78boga/dreammobs/registry/Items.java|1099|1103|item|param|ru.d78boga.dreammobs.registry.Items.Registry|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;|item|0
+         @|ru/d78boga/dreammobs/registry/Items.java|1110|1115|items|field|ru.d78boga.dreammobs.registry.Items.Registry|items
+         @|ru/d78boga/dreammobs/registry/Items.java|1116|1119|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+         @|ru/d78boga/dreammobs/registry/Items.java|1120|1124|item|param|ru.d78boga.dreammobs.registry.Items.Registry|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;|item|0
+         @|ru/d78boga/dreammobs/registry/Items.java|1138|1142|item|param|ru.d78boga.dreammobs.registry.Items.Registry|register|(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;|item|0
+      Method End: register(Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;
+      Method Start: registerAllRenders()V
+         @|ru/d78boga/dreammobs/registry/Items.java|1155|1163|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+         @|ru/d78boga/dreammobs/registry/Items.java|1164|1168|Side|class|net.minecraftforge.fml.relauncher.Side|false
+         @|ru/d78boga/dreammobs/registry/Items.java|1169|1175|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+         @|ru/d78boga/dreammobs/registry/Items.java|1192|1210|registerAllRenders|method|ru.d78boga.dreammobs.registry.Items.Registry|registerAllRenders|()V
+         @|ru/d78boga/dreammobs/registry/Items.java|1222|1232|renderItem|field|ru.d78boga.dreammobs.registry.Items.Registry|renderItem
+         @|ru/d78boga/dreammobs/registry/Items.java|1235|1244|Minecraft|class|net.minecraft.client.Minecraft|false
+         @|ru/d78boga/dreammobs/registry/Items.java|1245|1257|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+         @|ru/d78boga/dreammobs/registry/Items.java|1260|1273|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+         @|ru/d78boga/dreammobs/registry/Items.java|1288|1292|Item|class|net.minecraft.item.Item|false
+         @|ru/d78boga/dreammobs/registry/Items.java|1300|1305|items|field|ru.d78boga.dreammobs.registry.Items.Registry|items
+         @|ru/d78boga/dreammobs/registry/Items.java|1318|1332|registerRender|method|ru.d78boga.dreammobs.registry.Items.Registry|registerRender|(Lnet/minecraft/item/Item;)V
+      Method End: registerAllRenders()V
+      Method Start: registerRender(Lnet/minecraft/item/Item;)V
+         @|ru/d78boga/dreammobs/registry/Items.java|1415|1419|item|param|ru.d78boga.dreammobs.registry.Items.Registry|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+         @|ru/d78boga/dreammobs/registry/Items.java|1357|1365|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+         @|ru/d78boga/dreammobs/registry/Items.java|1366|1370|Side|class|net.minecraftforge.fml.relauncher.Side|false
+         @|ru/d78boga/dreammobs/registry/Items.java|1371|1377|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+         @|ru/d78boga/dreammobs/registry/Items.java|1395|1409|registerRender|method|ru.d78boga.dreammobs.registry.Items.Registry|registerRender|(Lnet/minecraft/item/Item;)V
+         @|ru/d78boga/dreammobs/registry/Items.java|1410|1414|Item|class|net.minecraft.item.Item|false
+         @|ru/d78boga/dreammobs/registry/Items.java|1430|1440|renderItem|field|ru.d78boga.dreammobs.registry.Items.Registry|renderItem
+         @|ru/d78boga/dreammobs/registry/Items.java|1441|1459|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+         @|ru/d78boga/dreammobs/registry/Items.java|1462|1470|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+         @|ru/d78boga/dreammobs/registry/Items.java|1471|1475|item|param|ru.d78boga.dreammobs.registry.Items.Registry|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+         @|ru/d78boga/dreammobs/registry/Items.java|1484|1505|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+         @|ru/d78boga/dreammobs/registry/Items.java|1506|1510|item|param|ru.d78boga.dreammobs.registry.Items.Registry|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+         @|ru/d78boga/dreammobs/registry/Items.java|1511|1526|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      Method End: registerRender(Lnet/minecraft/item/Item;)V
+   Class End  : ru.d78boga.dreammobs.registry.Items.Registry
+Class End  : ru.d78boga.dreammobs.registry.Items
+endProcessing "ru/d78boga/dreammobs/registry/Items.java"
+
+startProcessing "ru/d78boga/dreammobs/registry/LootTables.java" md5: bb9f983aaaf367350ed83eb151f93f51
+@|ru/d78boga/dreammobs/registry/LootTables.java|8|37|ru.d78boga.dreammobs.registry|package|ru.d78boga.dreammobs.registry|(file)
+Class Start: ru.d78boga.dreammobs.registry.LootTables
+   @|ru/d78boga/dreammobs/registry/LootTables.java|209|219|LootTables|class|ru.d78boga.dreammobs.registry.LootTables|false
+   @|ru/d78boga/dreammobs/registry/LootTables.java|245|261|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|ru/d78boga/dreammobs/registry/LootTables.java|245|261|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|ru/d78boga/dreammobs/registry/LootTables.java|262|275|ENTITIES_PYRO|field|ru.d78boga.dreammobs.registry.LootTables|ENTITIES_PYRO|
+   @|ru/d78boga/dreammobs/registry/LootTables.java|278|286|register|method|ru.d78boga.dreammobs.registry.LootTables|register|(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;
+   Method Start: register(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;
+      @|ru/d78boga/dreammobs/registry/LootTables.java|357|359|id|param|ru.d78boga.dreammobs.registry.LootTables|register|(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;|id|0
+      @|ru/d78boga/dreammobs/registry/LootTables.java|324|340|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|ru/d78boga/dreammobs/registry/LootTables.java|341|349|register|method|ru.d78boga.dreammobs.registry.LootTables|register|(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;
+      @|ru/d78boga/dreammobs/registry/LootTables.java|350|356|String|class|java.lang.String|false
+      @|ru/d78boga/dreammobs/registry/LootTables.java|375|388|LootTableList|class|net.minecraft.world.storage.loot.LootTableList|false
+      @|ru/d78boga/dreammobs/registry/LootTables.java|389|397|register|method|net.minecraft.world.storage.loot.LootTableList|register|(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/util/ResourceLocation;
+      @|ru/d78boga/dreammobs/registry/LootTables.java|398|413|ResourceLocator|class|ru.d78boga.dreammobs.util.ResourceLocator|false
+      @|ru/d78boga/dreammobs/registry/LootTables.java|414|433|getResourceLocation|method|ru.d78boga.dreammobs.util.ResourceLocator|getResourceLocation|(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;
+      @|ru/d78boga/dreammobs/registry/LootTables.java|434|436|id|param|ru.d78boga.dreammobs.registry.LootTables|register|(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;|id|0
+   Method End: register(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;
+Class End  : ru.d78boga.dreammobs.registry.LootTables
+endProcessing "ru/d78boga/dreammobs/registry/LootTables.java"
+
+startProcessing "ru/d78boga/dreammobs/registry/Potions.java" md5: 5f8d037ef9d30824f9c4d654f7ea1053
+@|ru/d78boga/dreammobs/registry/Potions.java|8|37|ru.d78boga.dreammobs.registry|package|ru.d78boga.dreammobs.registry|(file)
+Class Start: ru.d78boga.dreammobs.registry.Potions
+   @|ru/d78boga/dreammobs/registry/Potions.java|334|356|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
+   @|ru/d78boga/dreammobs/registry/Potions.java|357|362|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+   @|ru/d78boga/dreammobs/registry/Potions.java|365|374|DreamMobs|class|ru.d78boga.dreammobs.DreamMobs|false
+   @|ru/d78boga/dreammobs/registry/Potions.java|375|380|MODID|field|ru.d78boga.dreammobs.DreamMobs|MODID
+   @|ru/d78boga/dreammobs/registry/Potions.java|396|403|Potions|class|ru.d78boga.dreammobs.registry.Potions|false
+   @|ru/d78boga/dreammobs/registry/Potions.java|429|445|PotionFireSpirit|class|ru.d78boga.dreammobs.potion.PotionFireSpirit|false
+   @|ru/d78boga/dreammobs/registry/Potions.java|429|445|PotionFireSpirit|class|ru.d78boga.dreammobs.potion.PotionFireSpirit|false
+   @|ru/d78boga/dreammobs/registry/Potions.java|446|457|FIRE_SPIRIT|field|ru.d78boga.dreammobs.registry.Potions|FIRE_SPIRIT|
+   @|ru/d78boga/dreammobs/registry/Potions.java|460|468|register|method|ru.d78boga.dreammobs.registry.Potions|register|(Ljava/lang/String;Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/Potion;
+   @|ru/d78boga/dreammobs/registry/Potions.java|488|504|PotionFireSpirit|class|ru.d78boga.dreammobs.potion.PotionFireSpirit|false
+   Method Start: onRegisterPotions(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|ru/d78boga/dreammobs/registry/Potions.java|613|618|event|param|ru.d78boga.dreammobs.registry.Potions|onRegisterPotions|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|ru/d78boga/dreammobs/registry/Potions.java|528|542|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|ru/d78boga/dreammobs/registry/Potions.java|564|581|onRegisterPotions|method|ru.d78boga.dreammobs.registry.Potions|onRegisterPotions|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|ru/d78boga/dreammobs/registry/Potions.java|582|604|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|ru/d78boga/dreammobs/registry/Potions.java|605|611|Potion|class|net.minecraft.potion.Potion|false
+      @|ru/d78boga/dreammobs/registry/Potions.java|627|632|event|param|ru.d78boga.dreammobs.registry.Potions|onRegisterPotions|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|ru/d78boga/dreammobs/registry/Potions.java|633|644|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|ru/d78boga/dreammobs/registry/Potions.java|647|658|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|ru/d78boga/dreammobs/registry/Potions.java|659|670|FIRE_SPIRIT|field|ru.d78boga.dreammobs.registry.Potions|FIRE_SPIRIT
+   Method End: onRegisterPotions(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: register(Ljava/lang/String;Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/Potion;
+      @|ru/d78boga/dreammobs/registry/Potions.java|732|736|name|param|ru.d78boga.dreammobs.registry.Potions|register|(Ljava/lang/String;Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/Potion;|name|0
+      @|ru/d78boga/dreammobs/registry/Potions.java|740|746|potion|param|ru.d78boga.dreammobs.registry.Potions|register|(Ljava/lang/String;Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/Potion;|potion|1
+      @|ru/d78boga/dreammobs/registry/Potions.java|706|712|Potion|class|net.minecraft.potion.Potion|false
+      @|ru/d78boga/dreammobs/registry/Potions.java|716|724|register|method|ru.d78boga.dreammobs.registry.Potions|register|(Ljava/lang/String;Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/Potion;
+      @|ru/d78boga/dreammobs/registry/Potions.java|725|731|String|class|java.lang.String|false
+      @|ru/d78boga/dreammobs/registry/Potions.java|766|772|potion|param|ru.d78boga.dreammobs.registry.Potions|register|(Ljava/lang/String;Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/Potion;|potion|1
+      @|ru/d78boga/dreammobs/registry/Potions.java|773|786|setPotionName|method|net.minecraft.potion.Potion|setPotionName|(Ljava/lang/String;)Lnet/minecraft/potion/Potion;
+      @|ru/d78boga/dreammobs/registry/Potions.java|799|803|name|param|ru.d78boga.dreammobs.registry.Potions|register|(Ljava/lang/String;Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/Potion;|name|0
+      @|ru/d78boga/dreammobs/registry/Potions.java|805|820|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|ru/d78boga/dreammobs/registry/Potions.java|821|825|name|param|ru.d78boga.dreammobs.registry.Potions|register|(Ljava/lang/String;Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/Potion;|name|0
+   Method End: register(Ljava/lang/String;Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/Potion;
+Class End  : ru.d78boga.dreammobs.registry.Potions
+endProcessing "ru/d78boga/dreammobs/registry/Potions.java"
+
+startProcessing "ru/d78boga/dreammobs/registry/Sounds.java" md5: fc2b669cea69f5a87c6d69a056a8c6e2
+@|ru/d78boga/dreammobs/registry/Sounds.java|8|37|ru.d78boga.dreammobs.registry|package|ru.d78boga.dreammobs.registry|(file)
+Class Start: ru.d78boga.dreammobs.registry.Sounds
+   @|ru/d78boga/dreammobs/registry/Sounds.java|378|400|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
+   @|ru/d78boga/dreammobs/registry/Sounds.java|401|406|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+   @|ru/d78boga/dreammobs/registry/Sounds.java|409|418|DreamMobs|class|ru.d78boga.dreammobs.DreamMobs|false
+   @|ru/d78boga/dreammobs/registry/Sounds.java|419|424|MODID|field|ru.d78boga.dreammobs.DreamMobs|MODID
+   @|ru/d78boga/dreammobs/registry/Sounds.java|440|446|Sounds|class|ru.d78boga.dreammobs.registry.Sounds|false
+   @|ru/d78boga/dreammobs/registry/Sounds.java|472|482|SoundEvent|class|net.minecraft.util.SoundEvent|false
+   @|ru/d78boga/dreammobs/registry/Sounds.java|472|482|SoundEvent|class|net.minecraft.util.SoundEvent|false
+   @|ru/d78boga/dreammobs/registry/Sounds.java|483|503|ITEM_FIERY_HEART_USE|field|ru.d78boga.dreammobs.registry.Sounds|ITEM_FIERY_HEART_USE|
+   @|ru/d78boga/dreammobs/registry/Sounds.java|506|514|register|method|ru.d78boga.dreammobs.registry.Sounds|register|(Ljava/lang/String;)Lnet/minecraft/util/SoundEvent;
+   Method Start: registerAll(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|ru/d78boga/dreammobs/registry/Sounds.java|628|633|event|param|ru.d78boga.dreammobs.registry.Sounds|registerAll|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|ru/d78boga/dreammobs/registry/Sounds.java|545|559|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|ru/d78boga/dreammobs/registry/Sounds.java|581|592|registerAll|method|ru.d78boga.dreammobs.registry.Sounds|registerAll|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|ru/d78boga/dreammobs/registry/Sounds.java|593|615|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|ru/d78boga/dreammobs/registry/Sounds.java|616|626|SoundEvent|class|net.minecraft.util.SoundEvent|false
+      @|ru/d78boga/dreammobs/registry/Sounds.java|642|647|event|param|ru.d78boga.dreammobs.registry.Sounds|registerAll|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|ru/d78boga/dreammobs/registry/Sounds.java|648|659|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|ru/d78boga/dreammobs/registry/Sounds.java|662|673|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|ru/d78boga/dreammobs/registry/Sounds.java|674|694|ITEM_FIERY_HEART_USE|field|ru.d78boga.dreammobs.registry.Sounds|ITEM_FIERY_HEART_USE
+   Method End: registerAll(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: register(Ljava/lang/String;)Lnet/minecraft/util/SoundEvent;
+      @|ru/d78boga/dreammobs/registry/Sounds.java|747|751|name|param|ru.d78boga.dreammobs.registry.Sounds|register|(Ljava/lang/String;)Lnet/minecraft/util/SoundEvent;|name|0
+      @|ru/d78boga/dreammobs/registry/Sounds.java|720|730|SoundEvent|class|net.minecraft.util.SoundEvent|false
+      @|ru/d78boga/dreammobs/registry/Sounds.java|731|739|register|method|ru.d78boga.dreammobs.registry.Sounds|register|(Ljava/lang/String;)Lnet/minecraft/util/SoundEvent;
+      @|ru/d78boga/dreammobs/registry/Sounds.java|740|746|String|class|java.lang.String|false
+      @|ru/d78boga/dreammobs/registry/Sounds.java|760|776|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|ru/d78boga/dreammobs/registry/Sounds.java|790|805|ResourceLocator|class|ru.d78boga.dreammobs.util.ResourceLocator|false
+      @|ru/d78boga/dreammobs/registry/Sounds.java|806|825|getResourceLocation|method|ru.d78boga.dreammobs.util.ResourceLocator|getResourceLocation|(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;
+      @|ru/d78boga/dreammobs/registry/Sounds.java|826|830|name|param|ru.d78boga.dreammobs.registry.Sounds|register|(Ljava/lang/String;)Lnet/minecraft/util/SoundEvent;|name|0
+      @|ru/d78boga/dreammobs/registry/Sounds.java|847|857|SoundEvent|class|net.minecraft.util.SoundEvent|false
+      @|ru/d78boga/dreammobs/registry/Sounds.java|870|885|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+   Method End: register(Ljava/lang/String;)Lnet/minecraft/util/SoundEvent;
+Class End  : ru.d78boga.dreammobs.registry.Sounds
+endProcessing "ru/d78boga/dreammobs/registry/Sounds.java"
+
+startProcessing "ru/d78boga/dreammobs/util/BlockFinder.java" md5: ca7b7549553909f685546a0ff64d1c5a
+@|ru/d78boga/dreammobs/util/BlockFinder.java|8|33|ru.d78boga.dreammobs.util|package|ru.d78boga.dreammobs.util|(file)
+Class Start: ru.d78boga.dreammobs.util.BlockFinder
+   @|ru/d78boga/dreammobs/util/BlockFinder.java|196|207|BlockFinder|class|ru.d78boga.dreammobs.util.BlockFinder|false
+   Method Start: getNearestBlocks(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|267|272|world|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|world|0
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|283|289|center|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|center|1
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|295|301|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|227|236|ArrayList|class|java.util.ArrayList|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|237|242|Block|class|net.minecraft.block.Block|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|244|260|getNearestBlocks|method|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|261|266|World|class|net.minecraft.world.World|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|274|282|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|310|319|ArrayList|class|java.util.ArrayList|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|320|325|Block|class|net.minecraft.block.Block|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|340|349|ArrayList|class|java.util.ArrayList|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|374|380|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|386|392|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|422|428|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|434|440|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|472|478|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|484|490|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|510|518|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|529|537|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|538|544|center|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|center|1
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|545|549|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|557|563|center|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|center|1
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|564|568|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|576|582|center|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|center|1
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|583|587|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|608|614|center|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|center|1
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|615|625|distanceSq|method|net.minecraft.util.math.Vec3i|distanceSq|(Lnet/minecraft/util/math/Vec3i;)D
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|634|640|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|664|667|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|668|673|world|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlocks|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|world|0
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|674|687|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|693|701|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+   Method End: getNearestBlocks(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;
+   Method Start: getNearestBlockPoses(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|821|826|world|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|world|0
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|837|843|center|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|center|1
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|849|855|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|774|783|ArrayList|class|java.util.ArrayList|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|784|792|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|794|814|getNearestBlockPoses|method|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|815|820|World|class|net.minecraft.world.World|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|828|836|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|864|873|ArrayList|class|java.util.ArrayList|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|874|882|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|896|905|ArrayList|class|java.util.ArrayList|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|930|936|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|942|948|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|978|984|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|990|996|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1028|1034|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1040|1046|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1066|1074|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1085|1093|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1094|1100|center|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|center|1
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1101|1105|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1113|1119|center|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|center|1
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1120|1124|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1132|1138|center|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|center|1
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1139|1143|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1164|1170|center|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|center|1
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1171|1181|distanceSq|method|net.minecraft.util.math.Vec3i|distanceSq|(Lnet/minecraft/util/math/Vec3i;)D
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1190|1196|radius|param|ru.d78boga.dreammobs.util.BlockFinder|getNearestBlockPoses|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;|radius|2
+      @|ru/d78boga/dreammobs/util/BlockFinder.java|1219|1222|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: getNearestBlockPoses(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/ArrayList;
+Class End  : ru.d78boga.dreammobs.util.BlockFinder
+endProcessing "ru/d78boga/dreammobs/util/BlockFinder.java"
+
+startProcessing "ru/d78boga/dreammobs/util/RandomPositionGenerator.java" md5: 81f50d3b4b8f3d4c84290c098e9cd217
+@|ru/d78boga/dreammobs/util/RandomPositionGenerator.java|8|33|ru.d78boga.dreammobs.util|package|ru.d78boga.dreammobs.util|(file)
+Class Start: ru.d78boga.dreammobs.util.RandomPositionGenerator
+   @|ru/d78boga/dreammobs/util/RandomPositionGenerator.java|51|74|RandomPositionGenerator|class|ru.d78boga.dreammobs.util.RandomPositionGenerator|false
+Class End  : ru.d78boga.dreammobs.util.RandomPositionGenerator
+endProcessing "ru/d78boga/dreammobs/util/RandomPositionGenerator.java"
+
+startProcessing "ru/d78boga/dreammobs/util/ResourceLocator.java" md5: faec5b69ec0d8abe337a039210126363
+@|ru/d78boga/dreammobs/util/ResourceLocator.java|8|33|ru.d78boga.dreammobs.util|package|ru.d78boga.dreammobs.util|(file)
+Class Start: ru.d78boga.dreammobs.util.ResourceLocator
+   @|ru/d78boga/dreammobs/util/ResourceLocator.java|138|153|ResourceLocator|class|ru.d78boga.dreammobs.util.ResourceLocator|false
+   Method Start: getResourceLocation(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;
+      @|ru/d78boga/dreammobs/util/ResourceLocator.java|217|219|id|param|ru.d78boga.dreammobs.util.ResourceLocator|getResourceLocation|(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;|id|0
+      @|ru/d78boga/dreammobs/util/ResourceLocator.java|173|189|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|ru/d78boga/dreammobs/util/ResourceLocator.java|190|209|getResourceLocation|method|ru.d78boga.dreammobs.util.ResourceLocator|getResourceLocation|(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;
+      @|ru/d78boga/dreammobs/util/ResourceLocator.java|210|216|String|class|java.lang.String|false
+      @|ru/d78boga/dreammobs/util/ResourceLocator.java|239|255|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|ru/d78boga/dreammobs/util/ResourceLocator.java|256|265|DreamMobs|class|ru.d78boga.dreammobs.DreamMobs|false
+      @|ru/d78boga/dreammobs/util/ResourceLocator.java|266|271|MODID|field|ru.d78boga.dreammobs.DreamMobs|MODID
+      @|ru/d78boga/dreammobs/util/ResourceLocator.java|273|275|id|param|ru.d78boga.dreammobs.util.ResourceLocator|getResourceLocation|(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;|id|0
+   Method End: getResourceLocation(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;
+Class End  : ru.d78boga.dreammobs.util.ResourceLocator
+endProcessing "ru/d78boga/dreammobs/util/ResourceLocator.java"
+

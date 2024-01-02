@@ -13,7 +13,7 @@ import ru.d78boga.dreammobs.util.ResourceLocator;
 
 public class RenderPyro extends RenderLiving<EntityPyro>
 {
-	private ResourceLocation texture = ResourceLocator.getResourceLocation("textures/entity/pyro.png");
+	private ResourceLocation texture = ResourceLocator.getResourceLocation("textures/entities/pyro.png");
 
 	public RenderPyro(RenderManager manager)
 	{
