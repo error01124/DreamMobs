@@ -1,3 +1,8 @@
 entity.pyro.name=Поджигатель
+entity.thrower.name=Подкидыватель
+entity.goha.name=Гоха
+entity.danya.name=Даня
+
 item.fiery_heart.name=Огенное сердце
+
 effect.fire_spirit=Дух огня

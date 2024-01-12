@@ -21,7 +21,7 @@ import net.minecraft.util.SoundEvent;
 import net.minecraft.world.World;
 import ru.d78boga.dreammobs.entity.ai.EntityAIFireBlock;
 import ru.d78boga.dreammobs.entity.ai.EntityAIMoveToFlammableBlock;
-import ru.d78boga.dreammobs.registry.LootTables;
+import ru.d78boga.dreammobs.init.LootTables;
 
 public class EntityPyro extends EntityMob
 {

@@ -1,3 +1,8 @@
 entity.pyro.name=Pyro
+entity.thrower.name=Thrower
+entity.goha.name=Goha
+entity.danya.name=Danya
+
 item.fiery_heart.name=Fiery Heart
+
 effect.fire_spirit=Fire Spirit
