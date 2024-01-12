@@ -3,8 +3,8 @@ package ru.d78boga.dreammobs.proxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import ru.d78boga.dreammobs.registry.Entities;
-import ru.d78boga.dreammobs.registry.Items;
+import ru.d78boga.dreammobs.init.Entities;
+import ru.d78boga.dreammobs.init.Items;
 
 public class ClientProxy extends CommonProxy
 {
@@ -12,14 +12,14 @@ public class ClientProxy extends CommonProxy
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		super.preInit(event);
-		Entities.REGISTRY.registerAllRenders();
+		Entities.registerAllRenders();
 	}
 
 	@Override
 	public void init(FMLInitializationEvent event)
 	{
 		super.init(event);
-		Items.REGISTRY.registerAllRenders();
+		Items.registerAllRenders();
 	}
 
 	@Override

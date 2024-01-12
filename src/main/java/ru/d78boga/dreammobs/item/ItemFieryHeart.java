@@ -14,8 +14,8 @@ import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.world.World;
-import ru.d78boga.dreammobs.registry.Potions;
-import ru.d78boga.dreammobs.registry.Sounds;
+import ru.d78boga.dreammobs.init.Potions;
+import ru.d78boga.dreammobs.init.Sounds;
 
 public class ItemFieryHeart extends Item
 {

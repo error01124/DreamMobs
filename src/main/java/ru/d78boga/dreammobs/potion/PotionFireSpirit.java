@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import ru.d78boga.dreammobs.DreamMobs;
-import ru.d78boga.dreammobs.registry.Potions;
+import ru.d78boga.dreammobs.init.Potions;
 import ru.d78boga.dreammobs.util.ResourceLocator;
 
 @Mod.EventBusSubscriber(modid = DreamMobs.MODID)
